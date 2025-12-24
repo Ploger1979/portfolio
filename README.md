@@ -1,5 +1,7 @@
 # AymanByte – Portfolio Website
 
+![AymanByte Portfolio Preview](assets/portfolio-preview.png)
+
 A modern, responsive portfolio website for **Ayman Plöger** (Full-Stack Developer), built with clean HTML/CSS/JavaScript and a focus on performance, clarity, and professional presentation.
 
 ## 🌐 Live Demo
