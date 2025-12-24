@@ -1,0 +1,577 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>AymanByte | Full-Stack Developer</title>
+    <meta
+      name="description"
+      content="Ayman Plöger is a Full-Stack Developer based in Germany, specializing in React, Next.js, Node, and Laravel. Building modern, scalable web applications."
+    />
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!-- Favicon (TAB ICON) -->
+    <link rel="icon" href="./favicon.ico" type="image/x-icon" />
+
+    <!-- Theme / Social preview -->
+    <meta name="theme-color" content="#0b1220" />
+    <meta property="og:title" content="AymanByte | Full-Stack Developer" />
+    <meta
+      property="og:description"
+      content="Ayman Plöger is a Full-Stack Developer based in Germany, specializing in React, Next.js, Node, and Laravel. Building modern, scalable web applications."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="./images/profile.jpg" />
+
+    <!-- Ionicons -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+  </head>
+
+  <body class="dark-mode">
+    <!-- Navigation -->
+    <nav class="navbar">
+      <div class="container">
+        <a class="logo" href="#hero" aria-label="AymanByte Home">
+          <img
+            src="./images/logo-ohne-bg.png"
+            alt="AymanByte logo"
+            class="logo-img"
+          />
+          <span class="logo-text"
+            >Ayman<span class="logo-accent">Byte</span></span
+          >
+        </a>
+
+        <div class="nav-links">
+          <a data-i18n="nav.about" href="#about">About</a>
+          <a data-i18n="nav.skills" href="#skills">Skills</a>
+          <a data-i18n="nav.projects" href="#projects">Projects</a>
+          <a
+            data-i18n="nav.clients"
+            href="clients.html"
+            style="color: var(--primary); font-weight: 600"
+            >For Clients</a
+          >
+          <a class="btn btn-primary" data-i18n="nav.contact" href="#contact"
+            >Contact Me</a
+          >
+
+          <div class="lang-switch">
+            <select aria-label="Select Language" id="language-selector">
+              <option value="en">EN</option>
+              <option value="de">DE</option>
+              <option value="ar">AR</option>
+            </select>
+          </div>
+
+          <button aria-label="Toggle Dark Mode" id="theme-toggle">
+            <ion-icon class="moon" name="moon-outline"></ion-icon>
+            <ion-icon class="sun" name="sunny-outline"></ion-icon>
+          </button>
+        </div>
+
+        <button aria-label="Toggle Menu" class="mobile-toggle">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </button>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+      <div class="hero-bg">
+        <img alt="Hero illustration" aria-hidden="true" src="images/hero.png" />
+        <div class="overlay"></div>
+      </div>
+      <div class="container hero-content fade-up">
+        <p class="greeting" data-i18n="hero.greeting">Hello, I'm</p>
+        <h1 class="title">Ayman Plöger</h1>
+        <h2 class="subtitle" data-i18n="hero.subtitle">Full-Stack Developer</h2>
+        <p class="tech-stack">Next.js / React • Laravel / Node</p>
+        <p class="description" data-i18n="hero.description">
+          Building modern, scalable web apps with clean UI and reliable APIs.
+          Based in Germany, open to full-time roles and selected client
+          projects.
+        </p>
+        <div class="cta-group">
+          <a class="btn btn-primary" data-i18n="hero.projects" href="#projects"
+            >View Projects</a
+          >
+          <a class="btn btn-outline" data-i18n="hero.contact" href="#contact"
+            >Contact Me</a
+          >
+        </div>
+      </div>
+    </section>
+    <!-- About Section -->
+    <section class="section about" id="about">
+      <div class="container mobile-reverse">
+        <div class="about-text fade-up">
+          <h2 class="section-title" data-i18n="about.title">About Me</h2>
+          <div class="text-content">
+            <p data-i18n="about.p1">
+              I am a dedicated developer based in
+              <strong>Hildesheim, Germany</strong>, driven by a mission to build
+              web products that are fast, modern, and scalable. With a focus on
+              <strong>frontend excellence</strong> using React and Next.js,
+              giving attention to detail in UI/UX, I also bring a pragmatic
+              approach to backend development with Laravel and Node.js.
+            </p>
+            <p data-i18n="about.p2">
+              My work revolves around clean architecture, maintainability, and a
+              production-first mindset. I thrive in diverse environments,
+              leveraging my multilingual communication skills in
+              <strong>German, English, and Arabic</strong> to collaborate
+              effectively and deliver business impact.
+            </p>
+          </div>
+          <div class="stats-grid">
+            <div class="stat-item">
+              <span class="stat-number">4+</span>
+              <span class="stat-label" data-i18n="about.stats.projects"
+                >Featured Projects</span
+              >
+            </div>
+            <div class="stat-item">
+              <span class="stat-number">3</span>
+              <span class="stat-label" data-i18n="about.stats.languages"
+                >Languages Spoken</span
+              >
+            </div>
+          </div>
+        </div>
+        <div class="about-image fade-up">
+          <div class="image-wrapper">
+            <img alt="Ayman Plöger" loading="lazy" src="images/profile.jpg" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Skills Section -->
+    <section class="section skills" id="skills">
+      <div class="container">
+        <h2 class="section-title fade-up" data-i18n="skills.title">
+          Technical Skills
+        </h2>
+        <div class="skills-grid">
+          <!-- Languages -->
+          <div class="skill-card fade-up">
+            <div class="icon-box">
+              <ion-icon name="code-slash-outline"></ion-icon>
+            </div>
+            <h3 data-i18n="skills.languages">Languages</h3>
+            <ul class="skill-list">
+              <li>JavaScript (ES6+)</li>
+              <li>TypeScript</li>
+              <li>HTML5</li>
+              <li>CSS3</li>
+            </ul>
+          </div>
+          <!-- Frameworks -->
+          <div class="skill-card fade-up">
+            <div class="icon-box">
+              <ion-icon name="layers-outline"></ion-icon>
+            </div>
+            <h3 data-i18n="skills.frameworks">Frameworks</h3>
+            <ul class="skill-list">
+              <li>React</li>
+              <li>Next.js</li>
+            </ul>
+          </div>
+          <!-- Backend -->
+          <div class="skill-card fade-up">
+            <div class="icon-box">
+              <ion-icon name="server-outline"></ion-icon>
+            </div>
+            <h3 data-i18n="skills.backend">Backend</h3>
+            <ul class="skill-list">
+              <li>Node.js</li>
+              <li>Laravel</li>
+              <li>REST APIs</li>
+            </ul>
+          </div>
+          <!-- Database & Tools -->
+          <div class="skill-card fade-up">
+            <div class="icon-box">
+              <ion-icon name="construct-outline"></ion-icon>
+            </div>
+            <h3 data-i18n="skills.tools">Data &amp; Tools</h3>
+            <ul class="skill-list">
+              <li>MongoDB (Atlas)</li>
+              <li>MySQL</li>
+              <li>Git &amp; GitHub</li>
+              <li>Netlify / Vercel</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Services Section -->
+    <section class="section services" id="services">
+      <div class="container">
+        <h2 class="section-title fade-up" data-i18n="services.title">
+          Services
+        </h2>
+        <p class="section-subtitle fade-up" data-i18n="services.subtitle">
+          Professional solutions for your business needs.
+        </p>
+        <div class="services-grid">
+          <div class="service-card fade-up">
+            <div class="service-icon">
+              <ion-icon name="desktop-outline"></ion-icon>
+            </div>
+            <h3 data-i18n="services.s1.title">Full-Stack Web Development</h3>
+            <p data-i18n="services.s1.desc">
+              End-to-end development using Next.js, Node.js, and Laravel for
+              scalable, robust applications.
+            </p>
+          </div>
+          <div class="service-card fade-up">
+            <div class="service-icon">
+              <ion-icon name="briefcase-outline"></ion-icon>
+            </div>
+            <h3 data-i18n="services.s2.title">Business Websites</h3>
+            <p data-i18n="services.s2.desc">
+              High-conversion landing pages and corporate sites designed to
+              build trust and drive growth.
+            </p>
+          </div>
+          <div class="service-card fade-up">
+            <div class="service-icon">
+              <ion-icon name="rocket-outline"></ion-icon>
+            </div>
+            <h3 data-i18n="services.s3.title">Performance &amp; UX</h3>
+            <p data-i18n="services.s3.desc">
+              Optimizing speed, refining user flows, and conducting UI cleanup
+              for a superior user experience.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Projects Section -->
+    <section class="section projects" id="projects">
+      <div class="container">
+        <h2 class="section-title fade-up" data-i18n="projects.title">
+          Featured Projects
+        </h2>
+        <div class="projects-grid">
+          <!-- Project 1 -->
+          <article class="project-card fade-up">
+            <div class="card-content">
+              <h3>Selina Zazou</h3>
+              <span class="project-type" data-i18n="projects.p1.type"
+                >Service Website</span
+              >
+              <p data-i18n="projects.p1.desc">
+                A professional service website designed to build trust, present
+                services clearly, and convert visitors into inquiries.
+              </p>
+              <a
+                class="btn-link"
+                href="https://kartenlegen-selinazazou.org/"
+                target="_blank"
+              >
+                <span data-i18n="projects.view">Live Website</span>
+                <ion-icon name="arrow-forward-outline"></ion-icon>
+              </a>
+            </div>
+          </article>
+          <!-- Project 2 -->
+          <article class="project-card fade-up">
+            <div class="card-content">
+              <h3>El-Qabaeli</h3>
+              <span class="project-type" data-i18n="projects.p2.type"
+                >Product &amp; Brand</span
+              >
+              <p data-i18n="projects.p2.desc">
+                A product-focused website with a strong brand identity and
+                responsive layout, built to scale with e-commerce features.
+              </p>
+              <a
+                class="btn-link"
+                href="https://el-qabaeli.com/"
+                target="_blank"
+              >
+                <span data-i18n="projects.view">Live Website</span>
+                <ion-icon name="arrow-forward-outline"></ion-icon>
+              </a>
+            </div>
+          </article>
+          <!-- Project 3 -->
+          <article class="project-card fade-up">
+            <div class="card-content">
+              <h3>Al-Raha</h3>
+              <span class="project-type" data-i18n="projects.p3.type"
+                >Concept Website</span
+              >
+              <p data-i18n="projects.p3.desc">
+                A premium company website concept with modern sections, clear
+                content hierarchy, and a professional visual system.
+              </p>
+              <a
+                class="btn-link"
+                href="https://raha-sp.netlify.app/"
+                target="_blank"
+              >
+                <span data-i18n="projects.view">Live Website</span>
+                <ion-icon name="arrow-forward-outline"></ion-icon>
+              </a>
+            </div>
+          </article>
+          <!-- Project 4 -->
+          <article class="project-card fade-up">
+            <div class="card-content">
+              <h3>El-Atar</h3>
+              <span class="project-type" data-i18n="projects.p4.type"
+                >Knowledge Platform</span
+              >
+              <p data-i18n="projects.p4.desc">
+                A structured multilingual content platform designed for
+                scalability, readability, and modern UI — including
+                dark-mode-first design.
+              </p>
+              <a
+                class="btn-link"
+                href="https://el-atar.netlify.app/"
+                target="_blank"
+              >
+                <span data-i18n="projects.view">Live Website</span>
+                <ion-icon name="arrow-forward-outline"></ion-icon>
+              </a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+    <!-- Experience Section -->
+    <section class="section experience" id="experience">
+      <div class="container">
+        <h2 class="section-title fade-up" data-i18n="experience.title">
+          Experience
+        </h2>
+        <div class="timeline">
+          <!-- Role 1 -->
+          <div class="timeline-item fade-up">
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+              <div class="timeline-header">
+                <h3 data-i18n="experience.r1.title">Full-Stack Developer</h3>
+                <span class="time" data-i18n="experience.ongoing">Ongoing</span>
+              </div>
+              <span class="company" data-i18n="experience.r1.company"
+                >Freelance / Client Projects — Germany</span
+              >
+              <ul data-i18n="experience.r1.desc">
+                <!-- JS will populate individual list items if needed, but for simplicity we translate the blocks or use separate keys for lines.
+                                 Simplification: We will replace the whole UL content via JS for cleaner switching. -->
+                <li>
+                  Built responsive websites with premium UI and clear structure.
+                </li>
+                <li>
+                  Improved UX and page flow for better conversion and trust.
+                </li>
+                <li>
+                  Delivered deployments and iterations based on real feedback.
+                </li>
+              </ul>
+            </div>
+          </div>
+          <!-- Role 2 -->
+          <div class="timeline-item fade-up">
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+              <div class="timeline-header">
+                <h3 data-i18n="experience.r2.title">
+                  Fachinformatiker Anwendungsentwicklung
+                </h3>
+                <span class="time" data-i18n="experience.ongoing">Ongoing</span>
+              </div>
+              <span class="company" data-i18n="experience.r2.company"
+                >Umschulung — WBS Training</span
+              >
+              <ul data-i18n="experience.r2.desc">
+                <li>
+                  Strengthened software engineering fundamentals (OOP, DB, clean
+                  code).
+                </li>
+                <li>
+                  Built multiple web projects applying modern frontend/backend
+                  concepts.
+                </li>
+                <li>
+                  Focused on maintainability, reliability, and production
+                  thinking.
+                </li>
+              </ul>
+            </div>
+          </div>
+          <!-- Role 3 -->
+          <div class="timeline-item fade-up">
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+              <div class="timeline-header">
+                <h3 data-i18n="experience.r3.title">
+                  Independent Product Builder
+                </h3>
+                <span class="time" data-i18n="experience.ongoing">Ongoing</span>
+              </div>
+              <span class="company" data-i18n="experience.r3.company"
+                >Web Projects</span
+              >
+              <ul data-i18n="experience.r3.desc">
+                <li>
+                  Created reusable components and scalable page structures.
+                </li>
+                <li>
+                  Experimented with multilingual setups, dark mode, structured
+                  content.
+                </li>
+                <li>
+                  Improved performance basics and code organization
+                  continuously.
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Career Objective -->
+    <section class="section objective">
+      <div class="container">
+        <div class="objective-card fade-up">
+          <h2 data-i18n="objective.title">Career Objective</h2>
+          <p data-i18n="objective.text">
+            I am seeking a full-time role as a
+            <strong>frontend-focused full-stack developer</strong>, contributing
+            to product teams, shipping high-quality features, and building
+            scalable web experiences with clean architecture and strong delivery
+            mindset.
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- Contact Section -->
+    <section class="section contact" id="contact">
+      <div class="container">
+        <h2 class="section-title fade-up" data-i18n="contact.title">
+          Get In Touch
+        </h2>
+        <div class="contact-wrapper fade-up">
+          <div class="contact-info">
+            <h3 data-i18n="contact.subtitle">
+              Let's evaluate how I can help your team.
+            </h3>
+            <p data-i18n="contact.desc">
+              Whether you have a question or just want to say hi, I'll try my
+              best to get back to you!
+            </p>
+            <div class="contact-methods">
+              <a class="method" href="mailto:aymanploger@gmail.com">
+                <ion-icon name="mail-outline"></ion-icon>
+                <span>aymanploger@gmail.com</span>
+              </a>
+              <a
+                class="method"
+                href="https://github.com/Ploger1979"
+                target="_blank"
+              >
+                <ion-icon name="logo-github"></ion-icon>
+                <span>GitHub</span>
+              </a>
+              <a class="method" href="#">
+                <ion-icon name="logo-linkedin"></ion-icon>
+                <span>LinkedIn</span>
+              </a>
+              <a
+                class="method"
+                href="https://www.facebook.com/profile.php?id=61585532606908"
+                target="_blank"
+              >
+                <ion-icon name="logo-facebook"></ion-icon>
+                <span>Facebook</span>
+              </a>
+              <a
+                class="method"
+                href="https://www.instagram.com/ayman.ploeger/"
+                target="_blank"
+              >
+                <ion-icon name="logo-instagram"></ion-icon>
+                <span>Instagram</span>
+              </a>
+            </div>
+          </div>
+          <form
+            action="#"
+            class="contact-form"
+            onsubmit="event.preventDefault();"
+          >
+            <div class="form-group">
+              <label data-i18n="contact.form.name" for="name">Name</label>
+              <input id="name" placeholder="John Doe" required="" type="text" />
+            </div>
+            <div class="form-group">
+              <label data-i18n="contact.form.email" for="email">Email</label>
+              <input
+                id="email"
+                placeholder="john@example.com"
+                required=""
+                type="email"
+              />
+            </div>
+            <div class="form-group">
+              <label data-i18n="contact.form.message" for="message"
+                >Message</label
+              >
+              <textarea
+                id="message"
+                placeholder="Your message..."
+                required=""
+                rows="5"
+              ></textarea>
+            </div>
+            <button
+              class="btn btn-primary"
+              data-i18n="contact.form.send"
+              type="submit"
+            >
+              Send Message
+            </button>
+            <!-- Note: This is a frontend-only form. -->
+          </form>
+        </div>
+      </div>
+    </section>
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-content">
+          <p>© 2025 Ayman Plöger. All rights reserved.</p>
+          <a class="back-to-top" data-i18n="footer.back" href="#hero"
+            >Back to Top</a
+          >
+        </div>
+      </div>
+    </footer>
+    <script src="js/script.js"></script>
+  </body>
+</html>

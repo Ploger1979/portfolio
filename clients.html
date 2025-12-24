@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>Ayman Plöger | Digital Solutions</title>
+    <meta
+        content="Professional web development services in Germany. Custom websites, web apps, and digital growth strategies by Ayman Plöger."
+        name="description" />
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com" rel="preconnect" />
+    <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&amp;display=swap"
+        rel="stylesheet" />
+    <!-- Styles -->
+    <link href="css/style.css" rel="stylesheet" />
+    <!-- Favicon (TAB ICON) -->
+    <link rel="icon" href="./favicon.ico?v=2" type="image/x-icon" />
+
+    <style>
+        /* Client Page Specific Overrides */
+        .hero {
+            min-height: 80vh;
+        }
+
+        .hero .title {
+            font-size: 3.5rem;
+            background: linear-gradient(to right, var(--text-main), var(--primary));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .service-icon {
+            font-size: 4rem;
+            margin-bottom: 2rem;
+        }
+
+        .service-card {
+            padding: 3rem;
+            text-align: left;
+        }
+
+        .process-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 3rem;
+            margin-top: 4rem;
+        }
+
+        .process-step {
+            position: relative;
+            padding: 2rem;
+            background: var(--bg-surface);
+            border-radius: var(--radius-lg);
+            border: 1px solid var(--border);
+        }
+
+        .process-step::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 4px;
+            background: var(--primary);
+            border-radius: var(--radius-lg) var(--radius-lg) 0 0;
+        }
+
+        .cta-section {
+            background: var(--primary);
+            color: white;
+            padding: 6rem 0;
+            text-align: center;
+            border-radius: var(--radius-lg);
+            margin: 4rem 0;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .cta-section h2 {
+            color: white;
+            margin-bottom: 2rem;
+        }
+
+        .cta-section .btn {
+            background: white;
+            color: var(--primary);
+            border: none;
+            font-size: 1.2rem;
+            padding: 1rem 2.5rem;
+        }
+
+        .cta-section .btn:hover {
+            transform: scale(1.05);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+        }
+
+        .nav-links {
+            gap: 1.5rem;
+        }
+
+        /* Gallery */
+        .gallery-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 2rem;
+        }
+
+        .gallery-item {
+            border-radius: var(--radius-lg);
+            overflow: hidden;
+            position: relative;
+            aspect-ratio: 16/9;
+            cursor: pointer;
+            border: 1px solid var(--border);
+        }
+
+        .gallery-item img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: transform 0.5s ease;
+        }
+
+        .gallery-item:hover img {
+            transform: scale(1.05);
+        }
+
+        .gallery-overlay {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            padding: 2rem;
+            background: linear-gradient(transparent, rgba(0, 0, 0, 0.8));
+            opacity: 0;
+            transition: opacity 0.3s ease;
+        }
+
+        .gallery-item:hover .gallery-overlay {
+            opacity: 1;
+        }
+
+        .gallery-overlay h3 {
+            color: white;
+            margin: 0;
+        }
+
+        @media (max-width: 768px) {
+            .gallery-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .hero .title {
+                font-size: 2.5rem;
+            }
+        }
+    </style>
+    <!-- Ionicons -->
+    <script src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js" type="module"></script>
+    <script nomodule="" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+    <meta content="#0b1220" name="theme-color" />
+    <meta content="Ayman Plöger | Digital Solutions" property="og:title" />
+    <meta
+        content="Professional web development services in Germany. Custom websites, web apps, and digital growth strategies by Ayman Plöger."
+        property="og:description" />
+    <meta content="website" property="og:type" />
+    <meta content="./images/hero.png" property="og:image" />
+</head>
+
+<body class="dark-mode">
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <a class="logo" href="#hero" aria-label="AymanByte Home">
+                <img src="./images/logo-ohne-bg.png" alt="AymanByte logo" class="logo-img" />
+                <span class="logo-text">Ayman<span class="logo-accent">Byte</span></span>
+            </a>
+            <div class="nav-links">
+                <a data-i18n="client.nav.home" href="index.html">Developer Portfolio</a>
+                <a data-i18n="client.nav.services" href="#services">Services</a>
+                <a data-i18n="client.nav.work" href="#work">Work</a>
+                <a class="btn btn-primary" data-i18n="client.nav.contact" href="#contact">Contact</a>
+                <div class="lang-switch">
+                    <select aria-label="Select Language" id="language-selector">
+                        <option value="de">DE</option>
+                        <option value="en">EN</option>
+                        <option value="ar">AR</option>
+                    </select>
+                </div>
+                <button aria-label="Toggle Dark Mode" id="theme-toggle">
+                    <ion-icon class="moon" name="moon-outline"></ion-icon>
+                    <ion-icon class="sun" name="sunny-outline"></ion-icon>
+                </button>
+            </div>
+            <button aria-label="Toggle Menu" class="mobile-toggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+        </div>
+    </nav>
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-bg">
+            <img alt="Hero illustration" aria-hidden="true" src="images/hero.png" style="opacity: 0.4;" />
+            <div class="overlay"></div>
+        </div>
+        <div class="container hero-content fade-up">
+            <h1 class="title" data-i18n="client.hero.title">Digitale Lösungen für Ihr Wachstum</h1>
+            <h2 class="subtitle" data-i18n="client.hero.subtitle"
+                style="font-size: 1.5rem; color: var(--text-muted); margin-top: 1rem;">Ich entwickle Premium-Webseiten
+                und Apps, die Besucher in Kunden verwandeln.</h2>
+            <div class="cta-group" style="margin-top: 2.5rem;">
+                <a class="btn btn-primary" data-i18n="client.hero.cta" href="#contact">Projekt Starten</a>
+            </div>
+        </div>
+    </section>
+    <!-- Services Section -->
+    <section class="section" id="services">
+        <div class="container">
+            <h2 class="section-title fade-up" data-i18n="client.services.title">Wie ich Ihnen helfe</h2>
+            <div class="services-grid">
+                <div class="service-card fade-up">
+                    <div class="service-icon"><ion-icon name="laptop-outline"></ion-icon></div>
+                    <h3 data-i18n="client.services.web.title">Individuelle Webseiten</h3>
+                    <p data-i18n="client.services.web.desc">Maßgeschneiderte Webseiten, die Ihre Marke widerspiegeln und
+                        auf allen Geräten perfekt funktionieren.</p>
+                </div>
+                <div class="service-card fade-up">
+                    <div class="service-icon"><ion-icon name="apps-outline"></ion-icon></div>
+                    <h3 data-i18n="client.services.app.title">Web Applikationen</h3>
+                    <p data-i18n="client.services.app.desc">Komplexe Funktionen einfach gemacht. Dashboards,
+                        Buchungssysteme und mehr.</p>
+                </div>
+                <div class="service-card fade-up">
+                    <div class="service-icon"><ion-icon name="search-outline"></ion-icon></div>
+                    <h3 data-i18n="client.services.seo.title">SEO &amp; Performance</h3>
+                    <p data-i18n="client.services.seo.desc">Schnelle Ladezeiten und Optimierungen für ein besseres
+                        Google-Ranking.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Work Showcase "Visuals" -->
+    <section class="section" id="work">
+        <div class="container">
+            <h2 class="section-title fade-up">Selected Work</h2>
+            <div class="gallery-grid">
+                <a class="gallery-item fade-up" href="https://kartenlegen-selinazazou.org/" target="_blank">
+                    <!-- Placeholder, using hero image if no other, or generic color block styled in CSS -->
+                    <div
+                        style="width: 100%; height: 100%; background: #38bdf8; display:flex; align-items:center; justify-content:center; color:white; font-size:2rem; font-weight:bold;">
+                        Selina Zazou</div>
+                    <div class="gallery-overlay">
+                        <h3>Service Website</h3>
+                    </div>
+                </a>
+                <a class="gallery-item fade-up" href="https://el-qabaeli.com/" target="_blank">
+                    <div
+                        style="width: 100%; height: 100%; background: #0ea5e9; display:flex; align-items:center; justify-content:center; color:white; font-size:2rem; font-weight:bold;">
+                        El-Qabaeli</div>
+                    <div class="gallery-overlay">
+                        <h3>E-Commerce Brand</h3>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+    <!-- Process -->
+    <section class="section">
+        <div class="container">
+            <h2 class="section-title fade-up" data-i18n="client.process.title">Mein Prozess</h2>
+            <div class="process-grid">
+                <div class="process-step fade-up">
+                    <h3 data-i18n="client.process.step1.title">1. Strategie</h3>
+                    <p data-i18n="client.process.step1.desc">Wir besprechen Ihre Ziele und Ihre Zielgruppe.</p>
+                </div>
+                <div class="process-step fade-up">
+                    <h3 data-i18n="client.process.step2.title">2. Design &amp; Code</h3>
+                    <p data-i18n="client.process.step2.desc">Ich baue Ihre Lösung mit modernster Technologie.</p>
+                </div>
+                <div class="process-step fade-up">
+                    <h3 data-i18n="client.process.step3.title">3. Launch</h3>
+                    <p data-i18n="client.process.step3.desc">Wir gehen live und ich sorge für einen reibungslosen Start.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- CTA -->
+    <div class="container">
+        <section class="cta-section fade-up">
+            <h2 data-i18n="client.cta_section.title">Bereit für den nächsten Schritt?</h2>
+            <a class="btn" data-i18n="client.cta_section.btn" href="#contact">Kostenloses Angebot</a>
+        </section>
+    </div>
+    <!-- Contact Form (Reused) -->
+    <section class="section contact" id="contact">
+        <div class="container">
+            <h2 class="section-title fade-up" data-i18n="contact.title">Get In Touch</h2>
+            <div class="contact-wrapper fade-up">
+                <div class="contact-info">
+                    <h3 data-i18n="contact.subtitle">Let's evaluate how I can help your team.</h3>
+                    <p data-i18n="contact.desc">Whether you have a question or just want to say hi, I'll try my best to
+                        get back to you!</p>
+                    <div class="contact-methods">
+                        <a class="method" href="mailto:aymanploger@gmail.com">
+                            <ion-icon name="mail-outline"></ion-icon>
+                            <span>aymanploger@gmail.com</span>
+                        </a>
+                        <a class="method" href="https://www.facebook.com/profile.php?id=61585532606908" target="_blank">
+                            <ion-icon name="logo-facebook"></ion-icon>
+                            <span>Facebook</span>
+                        </a>
+                        <a class="method" href="https://www.instagram.com/ayman.ploeger/" target="_blank">
+                            <ion-icon name="logo-instagram"></ion-icon>
+                            <span>Instagram</span>
+                        </a>
+                    </div>
+                </div>
+                <form action="#" class="contact-form" onsubmit="event.preventDefault();">
+                    <div class="form-group">
+                        <label data-i18n="contact.form.name" for="name">Name</label>
+                        <input id="name" placeholder="Name" required="" type="text" />
+                    </div>
+                    <div class="form-group">
+                        <label data-i18n="contact.form.email" for="email">Email</label>
+                        <input id="email" placeholder="Email" required="" type="email" />
+                    </div>
+                    <div class="form-group">
+                        <label data-i18n="contact.form.message" for="message">Message</label>
+                        <textarea id="message" placeholder="Your message..." required rows="5"></textarea>
+                    </div>
+                    <button class="btn btn-primary" data-i18n="contact.form.send" type="submit">Send Message</button>
+                    <!-- Note: This is a frontend-only form. -->
+                </form>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>© 2025 Ayman Plöger. All rights reserved.</p>
+                <!-- Reuse Footer -->
+            </div>
+        </div>
+    </footer>
+    <script src="js/script.js"></script>
+    <script>
+        // Set default language for this page to DE if no storage found? Or stick to script default.
+        // Actually script.js checks existing storage.
+    </script>
+</body>
+
+</html>
