@@ -1,38 +1,54 @@
-# Portfolio (Static HTML/CSS/JS)
+# AymanByte – Portfolio Website
 
-ده بورتفوليو Static معمول بـ **HTML / CSS / JavaScript** (مفيش React/Next.js)، وبالتالي **مش محتاج npm** ولا `package.json`.
+A modern, responsive portfolio website for **Ayman Plöger** (Full-Stack Developer), built with clean HTML/CSS/JavaScript and a focus on performance, clarity, and professional presentation.
 
-## تشغيله على جهازك
-### الطريقة الأفضل (VS Code)
-1. افتح المشروع في VS Code  
-2. ثبّت إضافة **Live Server**  
-3. افتح `index.html`  
-4. اضغط **Go Live**  
-هتلاقيه فتح في المتصفح على رابط زي: `http://127.0.0.1:5500/`
+## 🌐 Live Demo
+- Netlify: (add your link here after deploy)
 
-### طريقة سريعة
-افتح `index.html` دبل كليك (لكن Live Server أفضل عشان أي JavaScript يشتغل بدون مشاكل).
+## 📄 Pages
+- **index.html** — Developer portfolio (about, skills, projects, experience, contact)
+- **clients.html** — Client-facing page (services, process, selected work, contact)
 
-## نشره على GitHub
-```bash
-git init
-git add .
-git commit -m "Initial commit"
-git branch -M main
-git remote add origin <REPO_URL>
-git push -u origin main
-```
+## ✨ Features
+- Dark / Light mode toggle
+- Multi-language UI (EN / DE / AR) with RTL support for Arabic
+- Responsive layout (mobile / tablet / desktop)
+- Smooth scroll + subtle animations
+- Clean UI system with reusable sections and components
 
-## نشره على Netlify
-1. افتح Netlify → **Add new site**  
-2. **Import from Git** → اختار GitHub  
-3. اختار الريبو بتاع البورتفوليو  
-4. (Static) سيب Build Command فاضي، و Publish Directory خليها `.`  
-5. Deploy → هتاخد لينك مباشر تقدر تبعته لأي حد.
+## 🧰 Tech Stack
+- HTML5
+- CSS3 (custom design system with CSS variables)
+- JavaScript (Vanilla)
+- Ionicons
 
-## ملاحظات مهمة
-- تأكد إن كل الروابط للصور والـ CSS والـ JS تكون **Relative** زي:
-  - `./css/style.css`
-  - `./js/script.js`
-  - `./images/...`
-- لو هتضيف صفحات جديدة، خلي الروابط واضحة زي `about.html` وهكذا.
+## 🚀 Run Locally
+You can open the project directly in the browser:
+
+1. Open `index.html` with your browser  
+   **or**
+2. Use VS Code extension **Live Server**:
+   - Install *Live Server*
+   - Right click `index.html` → **Open with Live Server**
+
+## 📦 Deployment
+### GitHub
+This project is hosted on GitHub:
+- Repo: https://github.com/Ploger1979/portfolio
+
+### Netlify
+Recommended deployment via Netlify (Git-based):
+- Import the GitHub repo
+- Build command: *(empty)*
+- Publish directory: `.`
+
+## 📬 Contact
+- Email: **aymanploger@gmail.com**
+- GitHub: https://github.com/Ploger1979
+- Instagram: https://www.instagram.com/ayman.ploeger/
+- Facebook: https://www.facebook.com/profile.php?id=61585532606908
+
+---
+
+© 2025 Ayman Plöger — All rights reserved.
+
