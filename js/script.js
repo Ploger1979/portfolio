@@ -183,6 +183,14 @@ const translations = {
         type: "Knowledge Platform",
         desc: "A structured multilingual content platform designed for scalability, readability, and modern UI — including dark-mode-first design.",
       },
+      p5: {
+        type: "E-Commerce Store",
+        desc: "An elegant online store for perfumes featuring a modern design, product catalog, and seamless user experience.",
+      },
+      p6: {
+        type: "Service Website",
+        desc: "A professional website for a moving company, offering service details, booking inquiries, and a clean corporate presence.",
+      },
     },
     experience: {
       title: "Experience",
@@ -339,6 +347,14 @@ const translations = {
         type: "Wissensplattform",
         desc: "Eine strukturierte, mehrsprachige Content-Plattform, designed für Skalierbarkeit und Lesbarkeit (Dark Mode First).",
       },
+      p5: {
+        type: "E-Commerce / Shop",
+        desc: "Ein eleganter Online-Shop für Parfüms mit modernem Design, Produktkatalog und nahtloser Benutzererfahrung.",
+      },
+      p6: {
+        type: "Dienstleistungs-Webseite",
+        desc: "Eine professionelle Webseite für ein Umzugsunternehmen mit Leistungsdetails, Buchungsanfragen und klarer Unternehmenspräsenz.",
+      },
     },
     experience: {
       title: "Erfahrung",
@@ -494,6 +510,14 @@ const translations = {
       p4: {
         type: "منصة معرفية",
         desc: "منصة محتوى منظمة متعددة اللغات مصممة للقابلية للتوسع والقراءة، وتصميم يدعم الوضع المظلم أولاً.",
+      },
+      p5: {
+        type: "متجر إلكتروني",
+        desc: "متجر إلكتروني أنيق للعطور يتميز بتصميم عصري وكتالوج منتجات وتجربة مستخدم سلسة.",
+      },
+      p6: {
+        type: "موقع خدمي",
+        desc: "موقع احترافي لشركة نقل أثاث، يقدم تفاصيل الخدمات واستفسارات الحجز وحضور مؤسسي متميز.",
       },
     },
     experience: {
