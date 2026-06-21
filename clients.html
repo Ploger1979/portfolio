@@ -100,7 +100,7 @@
         /* Gallery */
         .gallery-grid {
             display: grid;
-            grid-template-columns: repeat(2, 1fr);
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
             gap: 2rem;
         }
 
@@ -244,20 +244,21 @@
             <h2 class="section-title fade-up">Selected Work</h2>
             <div class="gallery-grid">
                 <a href="https://kartenlegen-selinazazou.org/" target="_blank" class="gallery-item fade-up">
-                    <!-- Placeholder, using hero image if no other, or generic color block styled in CSS -->
-                    <div
-                        style="width: 100%; height: 100%; background: #38bdf8; display:flex; align-items:center; justify-content:center; color:white; font-size:2rem; font-weight:bold;">
-                        Selina Zazou</div>
+                    <img src="images/selina-zazou.jpg" alt="Selina Zazou" loading="lazy" />
                     <div class="gallery-overlay">
                         <h3>Service Website</h3>
                     </div>
                 </a>
                 <a href="https://el-qabaeli.com/" target="_blank" class="gallery-item fade-up">
-                    <div
-                        style="width: 100%; height: 100%; background: #0ea5e9; display:flex; align-items:center; justify-content:center; color:white; font-size:2rem; font-weight:bold;">
-                        El-Qabaeli</div>
+                    <img src="images/el-qabaeli.jpg" alt="El-Qabaeli" loading="lazy" />
                     <div class="gallery-overlay">
                         <h3>E-Commerce Brand</h3>
+                    </div>
+                </a>
+                <a href="https://zusammenumzuege.de/" target="_blank" class="gallery-item fade-up">
+                    <img src="images/zusammen-umzuege.jpg" alt="Zusammen Umzüge" loading="lazy" />
+                    <div class="gallery-overlay">
+                        <h3>Relocation Service</h3>
                     </div>
                 </a>
             </div>

@@ -176,8 +176,8 @@ const translations = {
         desc: "A product-focused website with a strong brand identity and responsive layout, built to scale with e-commerce features.",
       },
       p3: {
-        type: "Concept Website",
-        desc: "A premium company website concept with modern sections, clear content hierarchy, and a professional visual system.",
+        type: "Islamic Platform",
+        desc: "A comprehensive Islamic platform for Adhkar, Duas, and Hadith featuring a modern UI, dark mode, and seamless user experience.",
       },
       p4: {
         type: "Knowledge Platform",
@@ -188,8 +188,8 @@ const translations = {
         desc: "An elegant online store for perfumes featuring a modern design, product catalog, and seamless user experience.",
       },
       p6: {
-        type: "Service Website",
-        desc: "A professional website for a moving company, offering service details, booking inquiries, and a clean corporate presence.",
+        type: "Service Platform",
+        desc: "A professional website for a moving company in Germany, offering service details, booking inquiries, and a clean corporate presence.",
       },
     },
     experience: {
@@ -349,8 +349,8 @@ const translations = {
         desc: "Eine produktfokussierte Webseite mit starker Markenidentität und responsivem Layout, skalierbar für E-Commerce.",
       },
       p3: {
-        type: "Konzept Webseite",
-        desc: "Ein Premium-Firmenkonzept mit modernen Sektionen, klarer Hierarchie und professionellem Designsystem.",
+        type: "Islamische Plattform",
+        desc: "Eine umfassende islamische Plattform für Adhkar, Duas und Hadith mit einer modernen Benutzeroberfläche und einem Dark-Mode-First-Design.",
       },
       p4: {
         type: "Wissensplattform",
@@ -522,8 +522,8 @@ const translations = {
         desc: "موقع يركز على المنتج مع هوية تجارية قوية وتخطيط متجاوب، مبني للتوسع مع ميزات التجارة الإلكترونية.",
       },
       p3: {
-        type: "مفهوم موقع شركة",
-        desc: "مفهوم موقع شركة متميز بأقسام حديثة، وتسلسل هرمي واضح للمحتوى، ونظام بصري احترافي.",
+        type: "منصة إسلامية",
+        desc: "منصة إسلامية متكاملة للأذكار والأدعية والأحاديث الصحيحة بتصميم عصري وتجربة مستخدم فريدة.",
       },
       p4: {
         type: "منصة معرفية",
@@ -535,7 +535,7 @@ const translations = {
       },
       p6: {
         type: "موقع خدمي",
-        desc: "موقع احترافي لشركة نقل أثاث، يقدم تفاصيل الخدمات واستفسارات الحجز وحضور مؤسسي متميز.",
+        desc: "موقع خدمي احترافي لشركة نقل أثاث في ألمانيا، يقدم تفاصيل الخدمات وحساب التكاليف وحجز المواعيد بشكل سلس.",
       },
     },
     experience: {
