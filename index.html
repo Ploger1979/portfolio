@@ -65,14 +65,16 @@
             <p class="greeting" data-i18n="hero.greeting">Hello, I'm</p>
             <h1 class="title">Ayman Plöger</h1>
             <h2 class="subtitle" data-i18n="hero.subtitle">Full-Stack Developer</h2>
-            <p class="tech-stack">Next.js / React • Laravel / Node</p>
+            <p class="tech-stack">React • Next.js • TypeScript • Tailwind CSS • Node.js • MongoDB • AI Web Features</p>
             <p class="description" data-i18n="hero.description">
                 Building modern, scalable web apps with clean UI and reliable APIs.
                 Based in Germany, open to full-time roles and selected client projects.
             </p>
-            <div class="cta-group">
+            <div class="cta-group" style="gap: 15px; flex-wrap: wrap;">
                 <a href="#projects" class="btn btn-primary" data-i18n="hero.projects">View Projects</a>
                 <a href="#contact" class="btn btn-outline" data-i18n="hero.contact">Contact Me</a>
+                <a href="assets/cv/Ayman_Ploeger_Lebenslauf_DE.pdf" target="_blank" class="btn btn-outline" data-i18n="hero.downloadCV_DE">Download CV (DE)</a>
+                <a href="assets/cv/Ayman_Ploeger_CV_EN.pdf" target="_blank" class="btn btn-outline" data-i18n="hero.downloadCV_EN">Download CV (EN)</a>
             </div>
         </div>
     </section>
@@ -120,57 +122,46 @@
     <section id="skills" class="section skills">
         <div class="container">
             <h2 class="section-title fade-up" data-i18n="skills.title">Technical Skills</h2>
-            <div class="skills-grid">
-                <!-- Languages -->
+            <div class="skills-grid" style="grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));">
+                <!-- Strong Focus -->
                 <div class="skill-card fade-up">
                     <div class="icon-box">
-                        <ion-icon name="code-slash-outline"></ion-icon>
+                        <ion-icon name="star-outline"></ion-icon>
                     </div>
-                    <h3 data-i18n="skills.languages">Languages</h3>
+                    <h3 data-i18n="skills.strong_focus">Strong Focus</h3>
                     <ul class="skill-list">
-                        <li>JavaScript (ES6+)</li>
+                        <li>React & Next.js</li>
                         <li>TypeScript</li>
-                        <li>HTML5</li>
-                        <li>CSS3</li>
+                        <li>Tailwind CSS</li>
+                        <li>JavaScript (ES6+)</li>
                     </ul>
                 </div>
 
-                <!-- Frameworks -->
+                <!-- Working Experience -->
                 <div class="skill-card fade-up">
                     <div class="icon-box">
-                        <ion-icon name="layers-outline"></ion-icon>
+                        <ion-icon name="briefcase-outline"></ion-icon>
                     </div>
-                    <h3 data-i18n="skills.frameworks">Frameworks</h3>
-                    <ul class="skill-list">
-                        <li>React</li>
-                        <li>Next.js</li>
-                    </ul>
-                </div>
-
-                <!-- Backend -->
-                <div class="skill-card fade-up">
-                    <div class="icon-box">
-                        <ion-icon name="server-outline"></ion-icon>
-                    </div>
-                    <h3 data-i18n="skills.backend">Backend</h3>
+                    <h3 data-i18n="skills.working_experience">Working Experience</h3>
                     <ul class="skill-list">
                         <li>Node.js</li>
-                        <li>Laravel</li>
+                        <li>MongoDB (Atlas)</li>
                         <li>REST APIs</li>
+                        <li>Git & GitHub</li>
                     </ul>
                 </div>
 
-                <!-- Database & Tools -->
+                <!-- Additional Experience -->
                 <div class="skill-card fade-up">
                     <div class="icon-box">
-                        <ion-icon name="construct-outline"></ion-icon>
+                        <ion-icon name="add-circle-outline"></ion-icon>
                     </div>
-                    <h3 data-i18n="skills.tools">Data & Tools</h3>
+                    <h3 data-i18n="skills.additional_experience">Additional Experience</h3>
                     <ul class="skill-list">
-                        <li>MongoDB (Atlas)</li>
+                        <li>Laravel & PHP</li>
                         <li>MySQL</li>
-                        <li>Git & GitHub</li>
-                        <li>Netlify / Vercel</li>
+                        <li>WordPress / Divi</li>
+                        <li>Shopware Basics</li>
                     </ul>
                 </div>
             </div>
@@ -211,24 +202,109 @@
         <div class="container">
             <h2 class="section-title fade-up" data-i18n="projects.title">Featured Projects</h2>
             <div class="projects-grid">
-                <!-- Project 1 -->
+                <!-- Project: Zusammen Umzüge -->
                 <article class="project-card fade-up">
                     <div class="project-image">
-                        <img src="images/selina-zazou.jpg" alt="Selina Zazou" loading="lazy" />
+                        <img src="images/zusammen-umzuege.jpg" alt="Zusammen Umzüge" loading="lazy" />
                     </div>
                     <div class="card-content">
-                        <h3>Selina Zazou</h3>
-                        <span class="project-type" data-i18n="projects.p1.type">Service Website</span>
-                        <p data-i18n="projects.p1.desc">A professional service website designed to build trust, present
-                            services clearly, and convert visitors into inquiries.</p>
-                        <a href="https://kartenlegen-selinazazou.org/" target="_blank" class="btn-link">
-                            <span data-i18n="projects.view">Live Website</span> <ion-icon
-                                name="arrow-forward-outline"></ion-icon>
-                        </a>
+                        <h3>Zusammen Umzüge</h3>
+                        <span class="project-type" data-i18n="projects.p6.type">Service Platform</span>
+                        <p data-i18n="projects.p6.desc">A professional relocation website for a moving company in Germany, offering service details, booking inquiries, and a clean corporate presence.</p>
+                        <div style="display: flex; gap: 10px; margin-top: 15px; flex-wrap: wrap;">
+                            <a href="https://zusammenumzuege.de/" target="_blank" class="btn-link" style="margin-top: 0;">
+                                <span data-i18n="projects.view">Live Website</span> <ion-icon name="arrow-forward-outline"></ion-icon>
+                            </a>
+                            <a href="https://github.com/Ploger1979/zusammen-umzuege-platform" target="_blank" class="btn-link" style="margin-top: 0;">
+                                <span data-i18n="projects.github">GitHub Code</span> <ion-icon name="logo-github"></ion-icon>
+                            </a>
+                        </div>
                     </div>
                 </article>
 
-                <!-- Project 2 -->
+                <!-- Project: Al Siraj Perfumes -->
+                <article class="project-card fade-up">
+                    <div class="project-image">
+                        <img src="images/alsiraj-perfumes.jpg" alt="Al Siraj Perfumes" loading="lazy" />
+                    </div>
+                    <div class="card-content">
+                        <h3>Al Siraj Perfumes</h3>
+                        <span class="project-type" data-i18n="projects.p5.type">E-Commerce Store</span>
+                        <p data-i18n="projects.p5.desc">An elegant online store for perfumes featuring a modern design, product catalog, and seamless user experience.</p>
+                        <div style="display: flex; gap: 10px; margin-top: 15px; flex-wrap: wrap;">
+                            <a href="https://alsiraj-perfumes.com/" target="_blank" class="btn-link" style="margin-top: 0;">
+                                <span data-i18n="projects.view">Live Website</span> <ion-icon name="arrow-forward-outline"></ion-icon>
+                            </a>
+                            <a href="https://github.com/Ploger1979/alsiraj-perfumes-shop" target="_blank" class="btn-link" style="margin-top: 0;">
+                                <span data-i18n="projects.github">GitHub Code</span> <ion-icon name="logo-github"></ion-icon>
+                            </a>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Project: Kartenlegen Website -->
+                <article class="project-card fade-up">
+                    <div class="project-image">
+                        <img src="images/selina-zazou.jpg" alt="Selina Zazou (Kartenlegen)" loading="lazy" />
+                    </div>
+                    <div class="card-content">
+                        <h3>Kartenlegen Website (Selina Zazou)</h3>
+                        <span class="project-type" data-i18n="projects.p1.type">Service Website</span>
+                        <p data-i18n="projects.p1.desc">A professional service website designed to build trust, present services clearly, and convert visitors into inquiries.</p>
+                        <div style="display: flex; gap: 10px; margin-top: 15px; flex-wrap: wrap;">
+                            <a href="https://kartenlegen-selinazazou.org/" target="_blank" class="btn-link" style="margin-top: 0;">
+                                <span data-i18n="projects.view">Live Website</span> <ion-icon name="arrow-forward-outline"></ion-icon>
+                            </a>
+                            <a href="https://github.com/Ploger1979/kartenlegen-website" target="_blank" class="btn-link" style="margin-top: 0;">
+                                <span data-i18n="projects.github">GitHub Code</span> <ion-icon name="logo-github"></ion-icon>
+                            </a>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Project: Portfolio Website -->
+                <article class="project-card fade-up">
+                    <div class="project-image">
+                        <img src="images/portfolio-preview.png" alt="Portfolio Website" loading="lazy" />
+                    </div>
+                    <div class="card-content">
+                        <h3>Portfolio Website</h3>
+                        <span class="project-type">Personal Branding</span>
+                        <p>Modern developer portfolio built with semantic HTML, CSS, JavaScript, and dynamic internationalization.</p>
+                        <div style="display: flex; gap: 10px; margin-top: 15px; flex-wrap: wrap;">
+                            <a href="https://aymanbyte-portfolio.netlify.app/" target="_blank" class="btn-link" style="margin-top: 0;">
+                                <span data-i18n="projects.view">Live Website</span> <ion-icon name="arrow-forward-outline"></ion-icon>
+                            </a>
+                            <a href="https://github.com/Ploger1979/portfolio" target="_blank" class="btn-link" style="margin-top: 0;">
+                                <span data-i18n="projects.github">GitHub Code</span> <ion-icon name="logo-github"></ion-icon>
+                            </a>
+                        </div>
+                    </div>
+                </article>
+            </div>
+
+            <!-- Additional Projects & Case Studies -->
+            <h2 class="section-title fade-up" data-i18n="projects.additional_title" style="margin-top: 80px;">Additional Projects & Case Studies</h2>
+            <div class="projects-grid">
+                
+                <!-- Project: KI Ticket-Management System (Case Study) -->
+                <article class="project-card fade-up">
+                    <div class="project-image" style="background: #2a2a35; display: flex; align-items: center; justify-content: center;">
+                        <ion-icon name="analytics-outline" style="font-size: 80px; color: var(--primary);"></ion-icon>
+                    </div>
+                    <div class="card-content">
+                        <h3 data-i18n="projects.ki_title">AI Ticket-Management System – Case Study / Prototype</h3>
+                        <span class="project-type" data-i18n="projects.ki.type">Case Study / Prototype</span>
+                        <p data-i18n="projects.ki.desc">This project was developed as an internal AI-supported ticket-management case study. The original live system and repository are not publicly available due to data protection and internal company access. A future demo with mock data can be prepared to demonstrate the architecture, ticket workflow and AI-supported response features.</p>
+                        <div style="display: flex; gap: 10px; margin-top: 15px; flex-wrap: wrap;">
+                            <span class="btn-link" style="margin-top: 0; cursor: default; opacity: 0.7;">
+                                <span data-i18n="projects.ki_btn">Demo with mock data planned</span> <ion-icon name="time-outline"></ion-icon>
+                            </span>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Project: El-Qabaeli -->
                 <article class="project-card fade-up">
                     <div class="project-image">
                         <img src="images/el-qabaeli.jpg" alt="El-Qabaeli" loading="lazy" />
@@ -236,16 +312,14 @@
                     <div class="card-content">
                         <h3>El-Qabaeli</h3>
                         <span class="project-type" data-i18n="projects.p2.type">Product & Brand</span>
-                        <p data-i18n="projects.p2.desc">A product-focused website with a strong brand identity and
-                            responsive layout, built to scale with e-commerce features.</p>
+                        <p data-i18n="projects.p2.desc">A product-focused website with a strong brand identity and responsive layout, built to scale with e-commerce features.</p>
                         <a href="https://el-qabaeli.com/" target="_blank" class="btn-link">
-                            <span data-i18n="projects.view">Live Website</span> <ion-icon
-                                name="arrow-forward-outline"></ion-icon>
+                            <span data-i18n="projects.view">Live Website</span> <ion-icon name="arrow-forward-outline"></ion-icon>
                         </a>
                     </div>
                 </article>
 
-                <!-- Project 3 -->
+                <!-- Project: Khushu App -->
                 <article class="project-card fade-up">
                     <div class="project-image">
                         <img src="images/khushu-app.jpg" alt="Khushu App" loading="lazy" />
@@ -255,13 +329,12 @@
                         <span class="project-type" data-i18n="projects.p3.type">Islamic Platform</span>
                         <p data-i18n="projects.p3.desc">A comprehensive Islamic platform for Adhkar, Duas, and Hadith featuring a modern UI, dark mode, and seamless user experience.</p>
                         <a href="https://khushu-app.netlify.app/" target="_blank" class="btn-link">
-                            <span data-i18n="projects.view">Live Website</span> <ion-icon
-                                name="arrow-forward-outline"></ion-icon>
+                            <span data-i18n="projects.view">Live Website</span> <ion-icon name="arrow-forward-outline"></ion-icon>
                         </a>
                     </div>
                 </article>
 
-                <!-- Project 4 -->
+                <!-- Project: El-Atar -->
                 <article class="project-card fade-up">
                     <div class="project-image">
                         <img src="images/el-atar.jpg" alt="El-Atar" loading="lazy" />
@@ -269,44 +342,9 @@
                     <div class="card-content">
                         <h3>El-Atar</h3>
                         <span class="project-type" data-i18n="projects.p4.type">Knowledge Platform</span>
-                        <p data-i18n="projects.p4.desc">A structured multilingual content platform designed for
-                            scalability, readability, and modern UI — including dark-mode-first design.</p>
+                        <p data-i18n="projects.p4.desc">A structured multilingual content platform designed for scalability, readability, and modern UI — including dark-mode-first design.</p>
                         <a href="https://el-atar.netlify.app/" target="_blank" class="btn-link">
-                            <span data-i18n="projects.view">Live Website</span> <ion-icon
-                                name="arrow-forward-outline"></ion-icon>
-                        </a>
-                    </div>
-                </article>
-
-                <!-- Project 5 -->
-                <article class="project-card fade-up">
-                    <div class="project-image">
-                        <img src="images/alsiraj-perfumes.jpg" alt="Al Siraj Perfumes" loading="lazy" />
-                    </div>
-                    <div class="card-content">
-                        <h3>Al Siraj Perfumes</h3>
-                        <span class="project-type" data-i18n="projects.p5.type">E-Commerce Store</span>
-                        <p data-i18n="projects.p5.desc">An elegant online store for perfumes featuring a modern design,
-                            product catalog, and seamless user experience.</p>
-                        <a href="https://alsiraj-perfumes.com/" target="_blank" class="btn-link">
-                            <span data-i18n="projects.view">Live Website</span> <ion-icon
-                                name="arrow-forward-outline"></ion-icon>
-                        </a>
-                    </div>
-                </article>
-
-                <!-- Project 6 -->
-                <article class="project-card fade-up">
-                    <div class="project-image">
-                        <img src="images/zusammen-umzuege.jpg" alt="Zusammen Umzüge" loading="lazy" />
-                    </div>
-                    <div class="card-content">
-                        <h3>Zusammen Umzüge</h3>
-                        <span class="project-type" data-i18n="projects.p6.type">Service Platform</span>
-                        <p data-i18n="projects.p6.desc">A professional relocation website for a moving company in Germany, offering service details, booking inquiries, and a clean corporate presence.</p>
-                        <a href="https://zusammenumzuege.de/" target="_blank" class="btn-link">
-                            <span data-i18n="projects.view">Live Website</span> <ion-icon
-                                name="arrow-forward-outline"></ion-icon>
+                            <span data-i18n="projects.view">Live Website</span> <ion-icon name="arrow-forward-outline"></ion-icon>
                         </a>
                     </div>
                 </article>

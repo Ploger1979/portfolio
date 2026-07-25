@@ -126,16 +126,18 @@ const translations = {
     },
     hero: {
       greeting: "Hello, I'm",
-      subtitle: "Full-Stack Developer",
+      subtitle: "Frontend-/Full-Stack Web Developer",
       description:
         "Building modern, scalable web apps with clean UI and reliable APIs. Based in Germany, open to full-time roles and selected client projects.",
       projects: "View Projects",
       contact: "Contact Me",
+      downloadCV_DE: "Download CV (DE)",
+      downloadCV_EN: "Download CV (EN)",
     },
     about: {
       title: "About Me",
-      p1: "I am a dedicated developer based in <strong>Hildesheim, Germany</strong>, driven by a mission to build web products that are fast, modern, and scalable. With a focus on <strong>frontend excellence</strong> using React and Next.js, giving attention to detail in UI/UX, I also bring a pragmatic approach to backend development with Laravel and Node.js.",
-      p2: "My work revolves around clean architecture, maintainability, and a production-first mindset. I thrive in diverse environments, leveraging my multilingual communication skills in <strong>German, English, and Arabic</strong> to collaborate effectively and deliver business impact.",
+      p1: "I am a dedicated developer based in <strong>Hildesheim, Germany</strong>. My primary focus is on <strong>frontend excellence</strong> using React, Next.js, and TypeScript, combined with solid backend experience using Node.js and Laravel.",
+      p2: "I build scalable, modern web applications with clean architecture and a strong emphasis on UI/UX. Having successfully completed my retraining as an IT Specialist for Application Development (IHK), I am currently looking for a full-time role to contribute to a product team.",
       stats: {
         projects: "Featured Projects",
         languages: "Languages Spoken",
@@ -143,10 +145,9 @@ const translations = {
     },
     skills: {
       title: "Technical Skills",
-      languages: "Languages",
-      frameworks: "Frameworks",
-      backend: "Backend",
-      tools: "Data & Tools",
+      strong_focus: "Strong Focus",
+      working_experience: "Working Experience",
+      additional_experience: "Additional Experience",
     },
     services: {
       title: "Services",
@@ -166,7 +167,11 @@ const translations = {
     },
     projects: {
       title: "Featured Projects",
+      additional_title: "Additional Projects",
       view: "Live Website",
+      github: "GitHub Code",
+      ki_title: "AI Ticket-Management System – Case Study / Prototype",
+      ki_btn: "Demo with mock data planned",
       p1: {
         type: "Service Website",
         desc: "A professional service website designed to build trust, present services clearly, and convert visitors into inquiries.",
@@ -190,6 +195,10 @@ const translations = {
       p6: {
         type: "Service Platform",
         desc: "A professional website for a moving company in Germany, offering service details, booking inquiries, and a clean corporate presence.",
+      },
+      ki: {
+        type: "Case Study / Prototype",
+        desc: "This project was developed as an internal AI-supported ticket-management case study. The original live system and repository are not publicly available due to data protection and internal company access. A future demo with mock data can be prepared to demonstrate the architecture, ticket workflow and AI-supported response features.",
       },
     },
     experience: {
@@ -226,8 +235,8 @@ const translations = {
     },
     contact: {
       title: "Get In Touch",
-      subtitle: "Let's evaluate how I can help your team.",
-      desc: "Whether you have a question or just want to say hi, I'll try my best to get back to you!",
+      subtitle: "Open for new opportunities and full-time roles.",
+      desc: "I am currently looking for a full-time position as a Frontend or Full-Stack Developer. Feel free to reach out to discuss how I can contribute to your team!",
       form: {
         name: "Name",
         email: "Email",
@@ -299,16 +308,18 @@ const translations = {
     },
     hero: {
       greeting: "Hallo, ich bin",
-      subtitle: "Full-Stack Entwickler",
+      subtitle: "Frontend-/Full-Stack Web Entwickler",
       description:
         "Ich entwickle moderne, skalierbare Web-Apps mit sauberer UI und zuverlässigen APIs. Ansässig in Deutschland, offen für Vollzeitstellen und ausgewählte Kundenprojekte.",
       projects: "Projekte Ansehen",
       contact: "Kontaktieren",
+      downloadCV_DE: "Lebenslauf herunterladen (DE)",
+      downloadCV_EN: "CV herunterladen (EN)",
     },
     about: {
       title: "Über Mich",
-      p1: "Ich bin ein engagierter Entwickler aus <strong>Hildesheim, Deutschland</strong>, mit der Mission, schnelle und skalierbare Webprodukte zu bauen. Mein Fokus liegt auf <strong>Frontend-Exzellenz</strong> mit React und Next.js, sowie einer pragmatischen Herangehensweise an Backend-Entwicklung mit Laravel und Node.js.",
-      p2: "Meine Arbeit basiert auf sauberer Architektur, Wartbarkeit und einem produktionsorientierten Denken. Ich arbeite effektiv in diversen Umgebungen und nutze meine Sprachkenntnisse in <strong>Deutsch, Englisch und Arabisch</strong> für eine erfolgreiche Zusammenarbeit.",
+      p1: "Ich bin ein engagierter Entwickler aus <strong>Hildesheim, Deutschland</strong>. Mein klarer Fokus liegt auf <strong>Frontend-Exzellenz</strong> mit React, Next.js und TypeScript, ergänzt durch fundierte Backend-Erfahrung mit Node.js und Laravel.",
+      p2: "Ich entwickle skalierbare, moderne Webanwendungen mit sauberer Architektur und hohem Anspruch an UI/UX. Nach meinem erfolgreichen IHK-Abschluss als Fachinformatiker für Anwendungsentwicklung suche ich nun eine Vollzeitstelle, um produktiv in einem Entwicklungsteam mitzuwirken.",
       stats: {
         projects: "Ausgewählte Projekte",
         languages: "Gesprochene Sprachen",
@@ -316,10 +327,9 @@ const translations = {
     },
     skills: {
       title: "Technische Skills",
-      languages: "Sprachen",
-      frameworks: "Frameworks",
-      backend: "Backend",
-      tools: "Daten & Tools",
+      strong_focus: "Starker Fokus",
+      working_experience: "Praxiserfahrung",
+      additional_experience: "Zusätzliche Erfahrung",
     },
     services: {
       title: "Dienstleistungen",
@@ -339,7 +349,11 @@ const translations = {
     },
     projects: {
       title: "Ausgewählte Projekte",
+      additional_title: "Weitere Projekte",
       view: "Zur Webseite",
+      github: "GitHub Code",
+      ki_title: "KI Ticket-Management System – Fallstudie / Prototyp",
+      ki_btn: "Demo mit Mock-Daten geplant",
       p1: {
         type: "Service Webseite",
         desc: "Eine professionelle Service-Webseite, entwickelt um Vertrauen aufzubauen und Besucher in Anfragen zu konvertieren.",
@@ -363,6 +377,10 @@ const translations = {
       p6: {
         type: "Dienstleistungs-Webseite",
         desc: "Eine professionelle Webseite für ein Umzugsunternehmen mit Leistungsdetails, Buchungsanfragen und klarer Unternehmenspräsenz.",
+      },
+      ki: {
+        type: "Fallstudie / Prototyp",
+        desc: "Dieses Projekt wurde als interne KI-gestützte Ticket-Management-Fallstudie entwickelt. Das ursprüngliche Live-System und das Repository sind aufgrund von Datenschutz- und internen Unternehmensrichtlinien nicht öffentlich zugänglich. Eine zukünftige Demo mit Mock-Daten kann vorbereitet werden, um die Architektur, den Ticket-Workflow und die KI-gestützten Antwortfunktionen zu demonstrieren.",
       },
     },
     experience: {
@@ -399,8 +417,8 @@ const translations = {
     },
     contact: {
       title: "Kontakt",
-      subtitle: "Lassen Sie uns besprechen, wie ich helfen kann.",
-      desc: "Ob Sie eine Frage haben oder einfach Hallo sagen möchten, ich melde mich so schnell wie möglich!",
+      subtitle: "Offen für neue berufliche Herausforderungen und Vollzeitstellen.",
+      desc: "Ich bin auf der Suche nach einer Festanstellung als Frontend- oder Full-Stack-Entwickler. Kontaktieren Sie mich gerne, um zu besprechen, wie ich Ihr Team verstärken kann!",
       form: {
         name: "Name",
         email: "E-Mail",
@@ -472,16 +490,18 @@ const translations = {
     },
     hero: {
       greeting: "مرحباً، أنا",
-      subtitle: "مطور واجهات وخلفيات (Full-Stack)",
+      subtitle: "مطور واجهات وخلفيات (Frontend / Full-Stack)",
       description:
         "أقوم ببناء تطبيقات ويب حديثة وقابلة للتوسع بتصاميم نظيفة وواجهات برمجة موثوقة. مقيم في ألمانيا ومتاح للعمل بدوام كامل أو لمشاريع مختارة.",
       projects: "تصفح المشاريع",
       contact: "تواصل معي",
+      downloadCV_DE: "تحميل السيرة الذاتية بالألمانية",
+      downloadCV_EN: "تحميل السيرة الذاتية بالإنجليزية",
     },
     about: {
       title: "نبذة عني",
-      p1: "أنا مطور شغوف مقيم في <strong>هيلدسهايم، ألمانيا</strong>، هدفي هو بناء منتجات ويب سريعة وحديثة. أركز على <strong>الجودة في الواجهات الأمامية</strong> باستخدام React و Next.js، مع الاهتمام بدقة التفاصيل، وأمتلك نهجاً عملياً في تطوير الخلفيات (Backend) باستخدام Laravel و Node.js.",
-      p2: "يعتمد عملي على الهيكلة النظيفة للكود، وسهولة الصيانة، والتفكير في بيئة الإنتاج. أزدهر في بيئات العمل المتنوعة، مستفيداً من مهاراتي اللغوية في <strong>الألمانية، الإنجليزية، والعربية</strong> للتعاون بفعالية وتحقيق تأثير ملموس.",
+      p1: "أنا مطور شغوف مقيم في <strong>هيلدسهايم، ألمانيا</strong>. ينصب تركيزي الأساسي على <strong>تطوير واجهات المستخدم</strong> باستخدام React و Next.js و TypeScript، بالإضافة إلى خبرة عملية في تطوير الخلفيات (Backend) باستخدام Node.js و Laravel.",
+      p2: "أقوم ببناء تطبيقات ويب حديثة وقابلة للتوسع بتصميم هندسي نظيف واهتمام كبير بتجربة المستخدم. بعد إتمامي بنجاح التدريب المهني كمتخصص في تطوير التطبيقات (IHK)، أبحث حالياً عن وظيفة بدوام كامل للمساهمة في فريق تطوير المنتجات.",
       stats: {
         projects: "مشاريع مميزة",
         languages: "لغات",
@@ -489,10 +509,9 @@ const translations = {
     },
     skills: {
       title: "المهارات التقنية",
-      languages: "اللغات",
-      frameworks: "إطارات العمل",
-      backend: "الخلفي (Backend)",
-      tools: "الأدوات والبيانات",
+      strong_focus: "التركيز الأساسي",
+      working_experience: "خبرة عملية",
+      additional_experience: "خبرات إضافية",
     },
     services: {
       title: "خدماتي",
@@ -512,7 +531,11 @@ const translations = {
     },
     projects: {
       title: "مشاريع مميزة",
+      additional_title: "مشاريع إضافية",
       view: "زيارة الموقع",
+      github: "كود GitHub",
+      ki_title: "نظام إدارة التذاكر بالذكاء الاصطناعي – دراسة حالة / نموذج مبدئي",
+      ki_btn: "مخطط لعرض توضيحي ببيانات وهمية",
       p1: {
         type: "موقع خدمي",
         desc: "موقع خدمات احترافي مصمم لبناء الثقة وعرض الخدمات بوضوح وتحويل الزوار إلى عملاء.",
@@ -536,6 +559,10 @@ const translations = {
       p6: {
         type: "موقع خدمي",
         desc: "موقع خدمي احترافي لشركة نقل أثاث في ألمانيا، يقدم تفاصيل الخدمات وحساب التكاليف وحجز المواعيد بشكل سلس.",
+      },
+      ki: {
+        type: "دراسة حالة / نموذج مبدئي",
+        desc: "تم تطوير هذا المشروع كدراسة حالة داخلية لنظام إدارة تذاكر مدعوم بالذكاء الاصطناعي. النظام الحي الأصلي ومستودع الأكواد غير متاحين للعامة بسبب حماية البيانات وسياسات الوصول الداخلية للشركة. يمكن تجهيز عرض توضيحي (Demo) ببيانات وهمية مستقبلاً لاستعراض الهيكلية، وسير عمل التذاكر، وميزات الرد المدعومة بالذكاء الاصطناعي.",
       },
     },
     experience: {
@@ -572,8 +599,8 @@ const translations = {
     },
     contact: {
       title: "تواصل معي",
-      subtitle: "دعنا نرى كيف يمكنني مساعدة فريقك.",
-      desc: "سواء كان لديك سؤال أو ترغب فقط في إلقاء التحية، سأبذل قصارى جهدي للرد عليك!",
+      subtitle: "متاح لفرص عمل جديدة ووظائف بدوام كامل.",
+      desc: "أبحث حالياً عن وظيفة بدوام كامل كمطور واجهات أو Full-Stack. لا تتردد في التواصل معي لمناقشة كيف يمكنني المساهمة في فريقك!",
       form: {
         name: "الاسم",
         email: "البريد الإلكتروني",
