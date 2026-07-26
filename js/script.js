@@ -137,7 +137,7 @@ const translations = {
     about: {
       title: "About Me",
       p1: "I am a dedicated developer based in <strong>Hildesheim, Germany</strong>. My primary focus is on <strong>frontend excellence</strong> using React, Next.js, and TypeScript, combined with solid backend experience using Node.js and Laravel.",
-      p2: "I build scalable, modern web applications with clean architecture and a strong emphasis on UI/UX. Having successfully completed my retraining as an IT Specialist for Application Development (IHK), I am currently looking for a full-time role to contribute to a product team.",
+      p2: "I build scalable, modern web applications with clean architecture and a strong emphasis on UI/UX. As part of my retraining as an IT Specialist for Application Development, with a focus on web development, databases, OOP and AI-supported applications, I am currently looking for a full-time role to contribute to a product team.",
       stats: {
         projects: "Featured Projects",
         languages: "Languages Spoken",
@@ -211,10 +211,10 @@ const translations = {
         desc: "<li>Built responsive websites with premium UI and clear structure.</li><li>Improved UX and page flow for better conversion and trust.</li><li>Delivered deployments and iterations based on real feedback.</li>",
       },
       r2: {
-        title: "IT Specialist for Application Development (IHK)",
-        company: "Retraining — WBS Training AG",
+        title: "Retraining: IT Specialist for Application Development",
+        company: "WBS Training AG",
         duration: "01/2023 - 11/2025",
-        desc: "<li>Successfully completed IHK retraining, passing both the final project and technical discussion.</li><li>Deepened core software engineering concepts including OOP, databases, and Clean Code.</li><li>Developed multiple web projects using modern frontend and backend tech stacks.</li>",
+        desc: "<li>Successfully completed the practical IHK examination part, including the project work and technical discussion in the field of AI-supported ticket management.</li><li>Deepened core software engineering concepts including OOP, databases, and Clean Code.</li><li>Developed multiple web projects using modern frontend and backend tech stacks.</li>",
       },
       r3: {
         title: "Application Developer",
@@ -319,7 +319,7 @@ const translations = {
     about: {
       title: "Über Mich",
       p1: "Ich bin ein engagierter Entwickler aus <strong>Hildesheim, Deutschland</strong>. Mein klarer Fokus liegt auf <strong>Frontend-Exzellenz</strong> mit React, Next.js und TypeScript, ergänzt durch fundierte Backend-Erfahrung mit Node.js und Laravel.",
-      p2: "Ich entwickle skalierbare, moderne Webanwendungen mit sauberer Architektur und hohem Anspruch an UI/UX. Nach meinem erfolgreichen IHK-Abschluss als Fachinformatiker für Anwendungsentwicklung suche ich nun eine Vollzeitstelle, um produktiv in einem Entwicklungsteam mitzuwirken.",
+      p2: "Ich entwickle skalierbare, moderne Webanwendungen mit sauberer Architektur und hohem Anspruch an UI/UX. Im Rahmen meiner Umschulung zum Fachinformatiker für Anwendungsentwicklung mit Schwerpunkt Webentwicklung, Datenbanken, OOP und KI-gestützte Anwendungen suche ich nun eine Vollzeitstelle, um produktiv in einem Entwicklungsteam mitzuwirken.",
       stats: {
         projects: "Ausgewählte Projekte",
         languages: "Gesprochene Sprachen",
@@ -393,10 +393,10 @@ const translations = {
         desc: "<li>Entwicklung responsiver Webseiten mit Premium-UI und klarer Struktur.</li><li>Verbesserung von UX und Page-Flow für bessere Konversion.</li><li>Deployments und Iterationen basierend auf echtem Feedback.</li>",
       },
       r2: {
-        title: "Fachinformatiker Anwendungsentwicklung (IHK)",
-        company: "Umschulung — WBS Training AG",
+        title: "Umschulung: Fachinformatiker für Anwendungsentwicklung",
+        company: "WBS Training AG",
         duration: "01/2023 - 11/2025",
-        desc: "<li>Erfolgreicher Abschluss der IHK-Umschulung inklusive Bestehen der Projektarbeit und des Fachgesprächs.</li><li>Vertiefung von Software-Engineering-Grundlagen (OOP, Datenbanken, Clean Code).</li><li>Bau mehrerer Webprojekte unter Anwendung moderner Frontend-/Backend-Konzepte.</li>",
+        desc: "<li>Praktischen IHK-Prüfungsteil mit Projektarbeit und Fachgespräch im Bereich KI-gestütztes Ticket-Management erfolgreich absolviert.</li><li>Vertiefung von Software-Engineering-Grundlagen (OOP, Datenbanken, Clean Code).</li><li>Bau mehrerer Webprojekte unter Anwendung moderner Frontend-/Backend-Konzepte.</li>",
       },
       r3: {
         title: "Anwendungsentwickler",
@@ -501,7 +501,7 @@ const translations = {
     about: {
       title: "نبذة عني",
       p1: "أنا مطور شغوف مقيم في <strong>هيلدسهايم، ألمانيا</strong>. ينصب تركيزي الأساسي على <strong>تطوير واجهات المستخدم</strong> باستخدام React و Next.js و TypeScript، بالإضافة إلى خبرة عملية في تطوير الخلفيات (Backend) باستخدام Node.js و Laravel.",
-      p2: "أقوم ببناء تطبيقات ويب حديثة وقابلة للتوسع بتصميم هندسي نظيف واهتمام كبير بتجربة المستخدم. بعد إتمامي بنجاح التدريب المهني كمتخصص في تطوير التطبيقات (IHK)، أبحث حالياً عن وظيفة بدوام كامل للمساهمة في فريق تطوير المنتجات.",
+      p2: "أقوم ببناء تطبيقات ويب حديثة وقابلة للتوسع بتصميم هندسي نظيف واهتمام كبير بتجربة المستخدم. ضمن تدريبي المهني كمتخصص في تطوير التطبيقات، مع التركيز على تطوير الويب، قواعد البيانات، البرمجة الكائنية، والتطبيقات المدعومة بالذكاء الاصطناعي، أبحث حالياً عن وظيفة بدوام كامل للمساهمة في فريق تطوير المنتجات.",
       stats: {
         projects: "مشاريع مميزة",
         languages: "لغات",
@@ -575,10 +575,10 @@ const translations = {
         desc: "<li>بناء مواقع متجاوبة مع واجهة مستخدم متميزة وهيكلة واضحة.</li><li>تحسين تجربة المستخدم لجذب العملاء بشكل أفضل.</li><li>تسليم التحديثات والتحسينات بناءً على ملاحظات حقيقية.</li>",
       },
       r2: {
-        title: "متخصص تقنية معلومات - تطوير تطبيقات (IHK)",
-        company: "إعادة تأهيل مهني — WBS Training AG",
+        title: "إعادة تأهيل مهني: متخصص في تطوير التطبيقات",
+        company: "WBS Training AG",
         duration: "01/2023 - 11/2025",
-        desc: "<li>أتممت بنجاح التدريب المهني (IHK) واجتزت مشروع التخرج والمناقشة الفنية بنجاح.</li><li>تعميق أساسيات هندسة البرمجيات (OOP، قواعد البيانات، الكود النظيف).</li><li>بناء مشاريع ويب متعددة بتطبيق مفاهيم حديثة في الواجهات الأمامية والخلفية.</li>",
+        desc: "<li>اجتزت بنجاح الجزء العملي من امتحان IHK، بما في ذلك مشروع التخرج والمناقشة الفنية في مجال إدارة التذاكر المدعومة بالذكاء الاصطناعي.</li><li>تعميق أساسيات هندسة البرمجيات (OOP، قواعد البيانات، الكود النظيف).</li><li>بناء مشاريع ويب متعددة بتطبيق مفاهيم حديثة في الواجهات الأمامية والخلفية.</li>",
       },
       r3: {
         title: "مطور تطبيقات",
