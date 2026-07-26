@@ -1,39 +1,39 @@
-# AymanByte – Portfolio Website
+﻿# AymanByte â€“ Portfolio Website
 
-![AymanByte Portfolio Preview](assets/portfolio-preview.png)
+![AymanByte Portfolio Preview](images/portfolio-preview.png)
 
-A modern, responsive portfolio website for **Ayman Plöger** (Full-Stack Developer), built with clean HTML/CSS/JavaScript and a focus on performance, clarity, and professional presentation.
+A modern, responsive portfolio website for **Ayman PlÃ¶ger** (Full-Stack Developer), built with clean HTML/CSS/JavaScript and a focus on performance, clarity, and professional presentation.
 
-## 🌐 Live Demo
+## ðŸŒ Live Demo
 - Netlify: https://aymanbyte-portfolio.netlify.app/
 
-## 📄 Pages
-- **index.html** — Developer portfolio (about, skills, projects, experience, contact)
-- **clients.html** — Client-facing page (services, process, selected work, contact)
+## ðŸ“„ Pages
+- **index.html** â€” Developer portfolio (about, skills, projects, experience, contact)
+- **clients.html** â€” Client-facing page (services, process, selected work, contact)
 
-## ✨ Features
+## âœ¨ Features
 - Dark / Light mode toggle
 - Multi-language UI (EN / DE / AR) with RTL support for Arabic
 - Responsive layout (mobile / tablet / desktop)
 - Smooth scroll + subtle animations
 - Clean UI system with reusable sections and components
 
-## 🧰 Tech Stack
+## ðŸ§° Tech Stack
 - HTML5
 - CSS3 (custom design system with CSS variables)
 - JavaScript (Vanilla)
 - Ionicons
 
-## 🚀 Run Locally
+## ðŸš€ Run Locally
 You can open the project directly in the browser:
 
 1. Open `index.html` with your browser  
    **or**
 2. Use VS Code extension **Live Server**:
    - Install *Live Server*
-   - Right click `index.html` → **Open with Live Server**
+   - Right click `index.html` â†’ **Open with Live Server**
 
-## 📦 Deployment
+## ðŸ“¦ Deployment
 ### GitHub
 This project is hosted on GitHub:
 - Repo: https://github.com/Ploger1979/portfolio
@@ -44,7 +44,7 @@ Recommended deployment via Netlify (Git-based):
 - Build command: *(empty)*
 - Publish directory: `.`
 
-## 📬 Contact
+## ðŸ“¬ Contact
 - Email: **aymanploger@gmail.com**
 - GitHub: https://github.com/Ploger1979
 - Instagram: https://www.instagram.com/ayman.ploeger/
@@ -52,5 +52,6 @@ Recommended deployment via Netlify (Git-based):
 
 ---
 
-© 2025 Ayman Plöger — All rights reserved.
+Â© 2025 Ayman PlÃ¶ger â€” All rights reserved.
+
 
