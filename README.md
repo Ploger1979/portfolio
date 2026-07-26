@@ -1,57 +1,46 @@
-﻿# AymanByte â€“ Portfolio Website
+﻿# AymanByte - Portfolio Website
 
 ![AymanByte Portfolio Preview](images/portfolio-preview.png)
 
-A modern, responsive portfolio website for **Ayman PlÃ¶ger** (Full-Stack Developer), built with clean HTML/CSS/JavaScript and a focus on performance, clarity, and professional presentation.
+A modern, responsive portfolio website for Ayman Ploeger, focused on frontend/full-stack web development, clean UI, multilingual content and professional project presentation.
 
-## ðŸŒ Live Demo
+## Live Demo
+
 - Netlify: https://aymanbyte-portfolio.netlify.app/
 
-## ðŸ“„ Pages
-- **index.html** â€” Developer portfolio (about, skills, projects, experience, contact)
-- **clients.html** â€” Client-facing page (services, process, selected work, contact)
+## Pages
 
-## âœ¨ Features
-- Dark / Light mode toggle
-- Multi-language UI (EN / DE / AR) with RTL support for Arabic
-- Responsive layout (mobile / tablet / desktop)
-- Smooth scroll + subtle animations
-- Clean UI system with reusable sections and components
+- `index.html` - Developer portfolio with about, skills, projects, experience and contact sections
+- `clients.html` - Client-facing page with services, process, selected work and contact section
 
-## ðŸ§° Tech Stack
+## Features
+
+- Dark / light mode toggle
+- Multilingual UI in English, German and Arabic
+- RTL support for Arabic
+- Responsive layout for mobile, tablet and desktop
+- Smooth scrolling and subtle animations
+- Downloadable CV buttons in German and English
+- Featured project cards with live and GitHub links
+
+## Tech Stack
+
 - HTML5
-- CSS3 (custom design system with CSS variables)
-- JavaScript (Vanilla)
+- CSS3
+- JavaScript
 - Ionicons
 
-## ðŸš€ Run Locally
-You can open the project directly in the browser:
+## Deployment
 
-1. Open `index.html` with your browser  
-   **or**
-2. Use VS Code extension **Live Server**:
-   - Install *Live Server*
-   - Right click `index.html` â†’ **Open with Live Server**
+This project is deployed on Netlify and connected to GitHub for continuous deployment.
 
-## ðŸ“¦ Deployment
-### GitHub
-This project is hosted on GitHub:
-- Repo: https://github.com/Ploger1979/portfolio
+- Repository: https://github.com/Ploger1979/portfolio
+- Live Website: https://aymanbyte-portfolio.netlify.app/
 
-### Netlify
-Recommended deployment via Netlify (Git-based):
-- Import the GitHub repo
-- Build command: *(empty)*
-- Publish directory: `.`
+## Contact
 
-## ðŸ“¬ Contact
-- Email: **aymanploger@gmail.com**
+- Email: aymanploger@gmail.com
 - GitHub: https://github.com/Ploger1979
-- Instagram: https://www.instagram.com/ayman.ploeger/
-- Facebook: https://www.facebook.com/profile.php?id=61585532606908
+- Portfolio: https://aymanbyte-portfolio.netlify.app/
 
----
-
-Â© 2025 Ayman PlÃ¶ger â€” All rights reserved.
-
-
+(c) 2026 Ayman Ploeger. All rights reserved.
