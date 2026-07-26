@@ -429,11 +429,6 @@ body.light-mode .tech-stack {
     }
 }
 
-@media (min-width: 1100px) {
-    .projects-grid {
-        grid-template-columns: repeat(4, 1fr);
-    }
-}
 
 .project-card {
     background-color: var(--bg-surface);
