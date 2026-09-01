@@ -313,7 +313,7 @@ const translations = {
         "Ich entwickle moderne, skalierbare Web-Apps mit sauberer UI und zuverlässigen APIs. Ansässig in Deutschland, offen für Vollzeitstellen und ausgewählte Kundenprojekte.",
       projects: "Projekte Ansehen",
       contact: "Kontaktieren",
-      downloadCV_DE: "Lebenslauf herunterladen (DE)",
+      downloadCV_DE: "CV herunterladen (DE)",
       downloadCV_EN: "CV herunterladen (EN)",
     },
     about: {
