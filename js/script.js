@@ -196,6 +196,10 @@ const translations = {
         type: "Service Platform",
         desc: "A professional website for a moving company in Germany, offering service details, booking inquiries, and a clean corporate presence.",
       },
+      p7: {
+        type: "E-Commerce & Corporate Platform",
+        desc: "The official web platform for Al-Najah Company, built with Next.js 15, MongoDB, and high-security administration features.",
+      },
       ki: {
         type: "Case Study / Prototype",
         desc: "This project was developed as an internal AI-supported ticket-management case study. The original live system and repository are not publicly available due to data protection and internal company access. A future demo with mock data can be prepared to demonstrate the architecture, ticket workflow and AI-supported response features.",
@@ -378,6 +382,10 @@ const translations = {
         type: "Dienstleistungs-Webseite",
         desc: "Eine professionelle Webseite für ein Umzugsunternehmen mit Leistungsdetails, Buchungsanfragen und klarer Unternehmenspräsenz.",
       },
+      p7: {
+        type: "E-Commerce & Unternehmensplattform",
+        desc: "Die offizielle Webplattform für die Firma Al-Najah, entwickelt mit Next.js 15, Produktkatalog, MongoDB-Anbindung und abgesichertem Super-Admin-Dashboard.",
+      },
       ki: {
         type: "Fallstudie / Prototyp",
         desc: "Dieses Projekt wurde als interne KI-gestützte Ticket-Management-Fallstudie entwickelt. Das ursprüngliche Live-System und das Repository sind aufgrund von Datenschutz- und internen Unternehmensrichtlinien nicht öffentlich zugänglich. Eine zukünftige Demo mit Mock-Daten kann vorbereitet werden, um die Architektur, den Ticket-Workflow und die KI-gestützten Antwortfunktionen zu demonstrieren.",
@@ -559,6 +567,10 @@ const translations = {
       p6: {
         type: "موقع خدمي",
         desc: "موقع خدمي احترافي لشركة نقل أثاث في ألمانيا، يقدم تفاصيل الخدمات وحساب التكاليف وحجز المواعيد بشكل سلس.",
+      },
+      p7: {
+        type: "منصة تجارية وموقع شركة",
+        desc: "المنصة الرسمية لشركة النجاح لصناعة الأسفنج والمراتب، مبنية باستخدام Next.js 15 و MongoDB مع نظام إدارة فائق الأمان كـ Super Admin.",
       },
       ki: {
         type: "دراسة حالة / نموذج مبدئي",
