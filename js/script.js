@@ -3,7 +3,45 @@ document.addEventListener("DOMContentLoaded", () => {
   initLanguage(); // New
   initMobileMenu();
   initScrollAnimations();
+  initActiveNavSpy();
 });
+
+/* ScrollSpy for Active Nav Link */
+function initActiveNavSpy() {
+  const sections = document.querySelectorAll("section[id]");
+  const navLinks = document.querySelectorAll(".nav-links a[href^='#']");
+
+  if (!sections.length || !navLinks.length) return;
+
+  function updateActiveLink() {
+    let currentSectionId = "";
+    const scrollPosition = window.scrollY + 140;
+
+    sections.forEach((section) => {
+      const sectionTop = section.offsetTop;
+      const sectionHeight = section.offsetHeight;
+
+      if (
+        scrollPosition >= sectionTop &&
+        scrollPosition < sectionTop + sectionHeight
+      ) {
+        currentSectionId = section.getAttribute("id");
+      }
+    });
+
+    navLinks.forEach((link) => {
+      const href = link.getAttribute("href");
+      if (href === `#${currentSectionId}`) {
+        link.classList.add("active");
+      } else {
+        link.classList.remove("active");
+      }
+    });
+  }
+
+  window.addEventListener("scroll", updateActiveLink, { passive: true });
+  updateActiveLink();
+}
 
 /* Theme Handling */
 function initTheme() {

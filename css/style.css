@@ -176,10 +176,30 @@ body.light-mode .navbar {
 .nav-links a:not(.btn) {
     font-weight: 500;
     color: var(--text-muted);
+    position: relative;
+    padding: 0.25rem 0;
+    transition: color 0.3s ease;
 }
 
-.nav-links a:not(.btn):hover {
+.nav-links a:not(.btn):hover,
+.nav-links a:not(.btn).active {
     color: var(--primary);
+}
+
+.nav-links a:not(.btn)::after {
+    content: '';
+    position: absolute;
+    bottom: -4px;
+    left: 0;
+    width: 0%;
+    height: 2px;
+    background-color: var(--primary);
+    border-radius: 2px;
+    transition: width 0.3s ease;
+}
+
+.nav-links a:not(.btn).active::after {
+    width: 100%;
 }
 
 #theme-toggle {
