@@ -527,7 +527,7 @@ const translations = {
       },
     },
     nav: {
-      about: "عني",
+      about: "نبذة عني",
       skills: "مهاراتي",
       projects: "مشاريعي",
       clients: "للشركات",
