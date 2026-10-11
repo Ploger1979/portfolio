@@ -208,8 +208,8 @@ const translations = {
       additional_title: "Additional Projects",
       view: "Live Website",
       github: "GitHub Code",
-      ki_title: "AI Ticket-Management System – Case Study / Prototype",
-      ki_btn: "Demo with mock data planned",
+      ki_title: "Project-X KI – AI Ticket-Management System",
+      ki_btn: "Live Demo",
       p1: {
         type: "Service Website",
         desc: "A professional service website designed to build trust, present services clearly, and convert visitors into inquiries.",
@@ -239,8 +239,8 @@ const translations = {
         desc: "The official web platform for Al-Najah Company, built with Next.js 15, MongoDB, and high-security administration features.",
       },
       ki: {
-        type: "Case Study / Prototype",
-        desc: "This project was developed as an internal AI-supported ticket-management case study. The original live system and repository are not publicly available due to data protection and internal company access. A future demo with mock data can be prepared to demonstrate the architecture, ticket workflow and AI-supported response features.",
+        type: "Enterprise AI System & IHK Final Project",
+        desc: "Developed at Enodia Software GmbH as an IHK final project. An intelligent ticket management system powered by AI for automated classification, ticket analysis, and customer management. Live demo running with safe mock data on Laravel Cloud.",
       },
     },
     experience: {
@@ -394,8 +394,8 @@ const translations = {
       additional_title: "Weitere Projekte",
       view: "Zur Webseite",
       github: "GitHub Code",
-      ki_title: "KI Ticket-Management System – Fallstudie / Prototyp",
-      ki_btn: "Demo mit Mock-Daten geplant",
+      ki_title: "Project-X KI – KI-gestütztes Ticket-Management",
+      ki_btn: "Live Demo",
       p1: {
         type: "Service Webseite",
         desc: "Eine professionelle Service-Webseite, entwickelt um Vertrauen aufzubauen und Besucher in Anfragen zu konvertieren.",
@@ -425,8 +425,8 @@ const translations = {
         desc: "Die offizielle Webplattform für die Firma Al-Najah, entwickelt mit Next.js 15, Produktkatalog, MongoDB-Anbindung und abgesichertem Super-Admin-Dashboard.",
       },
       ki: {
-        type: "Fallstudie / Prototyp",
-        desc: "Dieses Projekt wurde als interne KI-gestützte Ticket-Management-Fallstudie entwickelt. Das ursprüngliche Live-System und das Repository sind aufgrund von Datenschutz- und internen Unternehmensrichtlinien nicht öffentlich zugänglich. Eine zukünftige Demo mit Mock-Daten kann vorbereitet werden, um die Architektur, den Ticket-Workflow und die KI-gestützten Antwortfunktionen zu demonstrieren.",
+        type: "Enterprise KI-System & IHK-Abschlussprojekt",
+        desc: "Entwickelt bei der Enodia Software GmbH als IHK-Abschlussprojekt. Ein intelligentes Ticket-Management-System mit KI-gestützter Analyse, automatisierter Kategorisierung und Kundenverwaltung. Live-Demo mit sicheren Mock-Daten auf Laravel Cloud.",
       },
     },
     experience: {
@@ -580,8 +580,8 @@ const translations = {
       additional_title: "مشاريع إضافية",
       view: "زيارة الموقع",
       github: "كود GitHub",
-      ki_title: "نظام إدارة التذاكر بالذكاء الاصطناعي – دراسة حالة / نموذج مبدئي",
-      ki_btn: "مخطط لعرض توضيحي ببيانات وهمية",
+      ki_title: "نظام إدارة التذاكر بالذكاء الاصطناعي (Project-X KI)",
+      ki_btn: "عرض حي (Live Demo)",
       p1: {
         type: "موقع خدمي",
         desc: "موقع خدمات احترافي مصمم لبناء الثقة وعرض الخدمات بوضوح وتحويل الزوار إلى عملاء.",
@@ -611,8 +611,8 @@ const translations = {
         desc: "المنصة الرسمية لشركة النجاح لصناعة الأسفنج والمراتب، مبنية باستخدام Next.js 15 و MongoDB مع نظام إدارة فائق الأمان كـ Super Admin.",
       },
       ki: {
-        type: "دراسة حالة / نموذج مبدئي",
-        desc: "تم تطوير هذا المشروع كدراسة حالة داخلية لنظام إدارة تذاكر مدعوم بالذكاء الاصطناعي. النظام الحي الأصلي ومستودع الأكواد غير متاحين للعامة بسبب حماية البيانات وسياسات الوصول الداخلية للشركة. يمكن تجهيز عرض توضيحي (Demo) ببيانات وهمية مستقبلاً لاستعراض الهيكلية، وسير عمل التذاكر، وميزات الرد المدعومة بالذكاء الاصطناعي.",
+        type: "نظام مؤسسي بالذكاء الاصطناعي ومشروع تخرج IHK",
+        desc: "تم تطويره في شركة Enodia Software GmbH كمشروع تخرج IHK. نظام متكامل لإدارة وتحليل تذاكر الدعم الفني بالذكاء الاصطناعي، وتصنيفها آلياً وإدارة العملاء. متاح للعرض المباشر (Demo) ببيانات تجريبية آمنة على Laravel Cloud.",
       },
     },
     experience: {
