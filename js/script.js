@@ -219,12 +219,14 @@ const translations = {
         desc: "A product-focused website with a strong brand identity and responsive layout, built to scale with e-commerce features.",
       },
       p3: {
-        type: "Islamic Platform",
-        desc: "A comprehensive Islamic platform for Adhkar, Duas, and Hadith featuring a modern UI, dark mode, and seamless user experience.",
+        title: "Khushu App",
+        type: "Progressive Web App (PWA)",
+        desc: "An immersive Islamic platform and PWA featuring authentic Adhkar, interactive audio Tasbeeh, dark mode, and full offline caching.",
       },
       p4: {
-        type: "Knowledge Platform",
-        desc: "A structured multilingual content platform designed for scalability, readability, and modern UI — including dark-mode-first design.",
+        title: "Nabatek Dawak (نباتك 🌿 دواك)",
+        type: "Botanical & Natural Health Platform",
+        desc: "A modern digital platform for medicinal herbs and natural remedies, featuring multilingual support, dark mode, and clean reading UX.",
       },
       p5: {
         type: "E-Commerce Store",
@@ -405,12 +407,14 @@ const translations = {
         desc: "Eine produktfokussierte Webseite mit starker Markenidentität und responsivem Layout, skalierbar für E-Commerce.",
       },
       p3: {
-        type: "Islamische Plattform",
-        desc: "Eine umfassende islamische Plattform für Adhkar, Duas und Hadith mit einer modernen Benutzeroberfläche und einem Dark-Mode-First-Design.",
+        title: "Khushu App",
+        type: "Progressive Web App (PWA)",
+        desc: "Eine immersive islamische Plattform und PWA mit authentischen Adhkar, interaktivem Audio-Tasbeeh, Dark Mode und Offline-Caching.",
       },
       p4: {
-        type: "Wissensplattform",
-        desc: "Eine strukturierte, mehrsprachige Content-Plattform, designed für Skalierbarkeit und Lesbarkeit (Dark Mode First).",
+        title: "Nabatek Dawak (نباتك 🌿 دواك)",
+        type: "Naturheilkunde & Wissensplattform",
+        desc: "Eine moderne, mehrsprachige Plattform für Heilpflanzen und Naturheilkunde mit optimierter Lesbarkeit und Dark-Mode-First-Design.",
       },
       p5: {
         type: "E-Commerce / Shop",
@@ -591,12 +595,14 @@ const translations = {
         desc: "موقع يركز على المنتج مع هوية تجارية قوية وتخطيط متجاوب، مبني للتوسع مع ميزات التجارة الإلكترونية.",
       },
       p3: {
-        type: "منصة إسلامية",
-        desc: "منصة إسلامية متكاملة للأذكار والأدعية والأحاديث الصحيحة بتصميم عصري وتجربة مستخدم فريدة.",
+        title: "تطبيق خشوع (Khushu App)",
+        type: "تطبيق ويب تقدمي (PWA)",
+        desc: "منصة إسلامية متكاملة وتطبيق PWA للأذكار والأدعية، يتميز بمسبحة تفاعلية بمؤثرات صوتية، دعم كامل للعمل بدون إنترنت، ووضع مظلم سينمائي.",
       },
       p4: {
-        type: "منصة معرفية",
-        desc: "منصة محتوى منظمة متعددة اللغات مصممة للقابلية للتوسع والقراءة، وتصميم يدعم الوضع المظلم أولاً.",
+        title: "نباتك 🌿 دواك",
+        type: "موسوعة الأعشاب والطب البديل",
+        desc: "منصة ويب متكاملة لعلوم الأعشاب الطبية والعلاجات الطبيعية، بتصميم عصري يدعم تعدد اللغات، الوضع المظلم، وتجربة تصفح سلسة.",
       },
       p5: {
         type: "متجر إلكتروني",
