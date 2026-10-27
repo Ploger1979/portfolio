@@ -166,7 +166,7 @@ const translations = {
       greeting: "Hello, I'm",
       subtitle: "Frontend-/Full-Stack Web Developer",
       description:
-        "Building modern, scalable web apps with clean UI and reliable APIs. Based in Germany, open to full-time roles and selected client projects.",
+        "Building modern, scalable web applications with clean architecture, intuitive UI, and reliable APIs. Based in Germany, collaborating with forward-thinking teams and businesses.",
       projects: "View Projects",
       contact: "Contact Me",
       downloadCV_DE: "Download CV (DE)",
@@ -175,7 +175,7 @@ const translations = {
     about: {
       title: "About Me",
       p1: "I am a dedicated developer based in <strong>Hildesheim, Germany</strong>. My primary focus is on <strong>frontend excellence</strong> using React, Next.js, and TypeScript, combined with solid backend experience using Node.js and Laravel.",
-      p2: "I build scalable, modern web applications with clean architecture and a strong emphasis on UI/UX. As part of my retraining as an IT Specialist for Application Development, with a focus on web development, databases, OOP and AI-supported applications, I am currently looking for a full-time role to contribute to a product team.",
+      p2: "I build scalable, modern web applications with clean architecture and a strong emphasis on UI/UX. As a certified IT Specialist for Application Development (IHK), my focus centers on full-stack web engineering, databases, object-oriented design, and AI-driven solutions.",
       stats: {
         projects: "Featured Projects",
         languages: "Languages Spoken",
@@ -253,10 +253,10 @@ const translations = {
         desc: "<li>Built responsive websites with premium UI and clear structure.</li><li>Improved UX and page flow for better conversion and trust.</li><li>Delivered deployments and iterations based on real feedback.</li>",
       },
       r2: {
-        title: "Retraining: IT Specialist for Application Development",
-        company: "WBS Training AG",
+        title: "IT Specialist for Application Development (IHK)",
+        company: "WBS Training AG — IHK Certified",
         duration: "01/2023 - 11/2025",
-        desc: "<li>Successfully completed the practical IHK examination part, including the project work and technical discussion in the field of AI-supported ticket management.</li><li>Deepened core software engineering concepts including OOP, databases, and Clean Code.</li><li>Developed multiple web projects using modern frontend and backend tech stacks.</li>",
+        desc: "<li>Successfully completed the certified IHK program, including project work and technical defense in enterprise AI-assisted systems.</li><li>Advanced software engineering principles: OOP, relational & NoSQL databases, Clean Architecture, and RESTful APIs.</li><li>Engineered full-stack web applications using React, Next.js, TypeScript, and modern backend stacks.</li>",
       },
       r3: {
         title: "Application Developer",
@@ -268,17 +268,17 @@ const translations = {
         title: "Independent Product Builder",
         company: "Web Projects",
         duration: "Ongoing",
-        desc: "<li>Created reusable components and scalable page structures.</li><li>Experimented with multilingual setups, dark mode, structured content.</li><li>Improved performance basics and code organization continuously.</li>",
+        desc: "<li>Created reusable components and scalable page structures.</li><li>Engineered multilingual setups, dark mode, and structured content workflows.</li><li>Optimized web performance, accessibility, and code quality continuously.</li>",
       },
     },
     objective: {
-      title: "Career Objective",
-      text: "I am seeking a full-time role as a <strong>frontend-focused full-stack developer</strong>, contributing to product teams, shipping high-quality features, and building scalable web experiences with clean architecture and strong delivery mindset.",
+      title: "Engineering Focus",
+      text: "As a <strong>frontend-focused full-stack developer</strong>, I specialize in shipping high-impact features and building scalable web applications with clean architecture, robust performance, and a proactive delivery mindset for modern product teams.",
     },
     contact: {
       title: "Get In Touch",
-      subtitle: "Open for new opportunities and full-time roles.",
-      desc: "I am currently looking for a full-time position as a Frontend or Full-Stack Developer. Feel free to reach out to discuss how I can contribute to your team!",
+      subtitle: "Open for ambitious projects, technical collaborations, and key engineering roles.",
+      desc: "Whether you're looking to build a high-performance web product, solve complex technical challenges, or bring an experienced developer into your team — let's start a conversation.",
       form: {
         name: "Name",
         email: "Email",
@@ -352,7 +352,7 @@ const translations = {
       greeting: "Hallo, ich bin",
       subtitle: "Frontend-/Full-Stack Web Entwickler",
       description:
-        "Ich entwickle moderne, skalierbare Web-Apps mit sauberer UI und zuverlässigen APIs. Ansässig in Deutschland, offen für Vollzeitstellen und ausgewählte Kundenprojekte.",
+        "Entwicklung moderner, skalierbarer Webanwendungen mit sauberer Architektur, intuitiver UI und zuverlässigen APIs. Ansässig in Deutschland, offen für zukunftsorientierte Teams und anspruchsvolle Projekte.",
       projects: "Projekte Ansehen",
       contact: "Kontaktieren",
       downloadCV_DE: "CV herunterladen (DE)",
@@ -361,7 +361,7 @@ const translations = {
     about: {
       title: "Über Mich",
       p1: "Ich bin ein engagierter Entwickler aus <strong>Hildesheim, Deutschland</strong>. Mein klarer Fokus liegt auf <strong>Frontend-Exzellenz</strong> mit React, Next.js und TypeScript, ergänzt durch fundierte Backend-Erfahrung mit Node.js und Laravel.",
-      p2: "Ich entwickle skalierbare, moderne Webanwendungen mit sauberer Architektur und hohem Anspruch an UI/UX. Im Rahmen meiner Umschulung zum Fachinformatiker für Anwendungsentwicklung mit Schwerpunkt Webentwicklung, Datenbanken, OOP und KI-gestützte Anwendungen suche ich nun eine Vollzeitstelle, um produktiv in einem Entwicklungsteam mitzuwirken.",
+      p2: "Ich entwickle skalierbare, moderne Webanwendungen mit sauberer Architektur und hohem Anspruch an UI/UX. Als zertifizierter Fachinformatiker für Anwendungsentwicklung (IHK) liegt mein Fokus auf moderner Webarchitektur, performanten Datenbanken, OOP und KI-gestützten Lösungen.",
       stats: {
         projects: "Ausgewählte Projekte",
         languages: "Gesprochene Sprachen",
@@ -439,10 +439,10 @@ const translations = {
         desc: "<li>Entwicklung responsiver Webseiten mit Premium-UI und klarer Struktur.</li><li>Verbesserung von UX und Page-Flow für bessere Konversion.</li><li>Deployments und Iterationen basierend auf echtem Feedback.</li>",
       },
       r2: {
-        title: "Umschulung: Fachinformatiker für Anwendungsentwicklung",
-        company: "WBS Training AG",
+        title: "Fachinformatiker für Anwendungsentwicklung (IHK)",
+        company: "WBS Training AG — IHK-Zertifiziert",
         duration: "01/2023 - 11/2025",
-        desc: "<li>Praktischen IHK-Prüfungsteil mit Projektarbeit und Fachgespräch im Bereich KI-gestütztes Ticket-Management erfolgreich absolviert.</li><li>Vertiefung von Software-Engineering-Grundlagen (OOP, Datenbanken, Clean Code).</li><li>Bau mehrerer Webprojekte unter Anwendung moderner Frontend-/Backend-Konzepte.</li>",
+        desc: "<li>Erfolgreicher IHK-Abschluss inklusive Projektarbeit und Fachgespräch im Bereich KI-gestützte Ticketsysteme.</li><li>Vertiefung zentraler Software-Engineering-Prinzipien: OOP, relationale Datenbanken, Clean Architecture und REST-APIs.</li><li>Entwicklung praxisnaher Full-Stack-Webprojekte mit modernem Tech-Stack (React, Next.js, TypeScript, Node.js).</li>",
       },
       r3: {
         title: "Anwendungsentwickler",
@@ -454,17 +454,17 @@ const translations = {
         title: "Unabhängiger Produkt-Entwickler",
         company: "Web Projekte",
         duration: "Laufend",
-        desc: "<li>Erstellung wiederverwendbarer Komponenten und skalierbarer Seitenstrukturen.</li><li>Experimentieren mit Mehrsprachigkeit, Dark Mode und strukturiertem Content.</li><li>Kontinuierliche Verbesserung von Performance-Basics und Code-Organisation.</li>",
+        desc: "<li>Erstellung wiederverwendbarer Komponenten und skalierbarer Seitenstrukturen.</li><li>Implementierung mehrsprachiger Architekturen, Dark Mode und strukturierter Datenworkflows.</li><li>Kontinuierliche Optimierung von Web-Performance, Barrierefreiheit und Code-Qualität.</li>",
       },
     },
     objective: {
-      title: "Karriereziel",
-      text: "Ich suche eine Vollzeitstelle als <strong>Frontend-fokussierter Full-Stack Entwickler</strong>, um in Produktteams hochwertige Features zu liefern und skalierbare Web-Experiences mit sauberer Architektur zu bauen.",
+      title: "Entwicklungsanspruch",
+      text: "Als <strong>Frontend-fokussierter Full-Stack Entwickler</strong> entwickle ich hochwertige Features und skalierbare Web-Experiences mit sauberer Architektur, kompromissloser Performance und echtem Mehrwert für moderne Produktteams.",
     },
     contact: {
       title: "Kontakt",
-      subtitle: "Offen für neue berufliche Herausforderungen und Vollzeitstellen.",
-      desc: "Ich bin auf der Suche nach einer Festanstellung als Frontend- oder Full-Stack-Entwickler. Kontaktieren Sie mich gerne, um zu besprechen, wie ich Ihr Team verstärken kann!",
+      subtitle: "Offen für anspruchsvolle Projekte, technische Kooperationen und innovative Rollen.",
+      desc: "Egal ob Sie ein modernes Webprodukt entwickeln möchten, technische Herausforderungen lösen wollen oder Verstärkung für Ihr Entwicklerteam suchen – ich freue mich auf den Austausch mit Ihnen.",
       form: {
         name: "Name",
         email: "E-Mail",
@@ -538,7 +538,7 @@ const translations = {
       greeting: "مرحباً، أنا",
       subtitle: "مطور واجهات وخلفيات (Frontend / Full-Stack)",
       description:
-        "أقوم ببناء تطبيقات ويب حديثة وقابلة للتوسع بتصاميم نظيفة وواجهات برمجة موثوقة. مقيم في ألمانيا ومتاح للعمل بدوام كامل أو لمشاريع مختارة.",
+        "أقوم ببناء تطبيقات ويب حديثة وقابلة للتوسع بهندسة برمجية نظيفة، تجربة مستخدم سلسة، وواجهات برمجة موثوقة. مقيم في ألمانيا، ومنفتح على التعاون مع الفرق المبتكرة والمشاريع الطموحة.",
       projects: "تصفح المشاريع",
       contact: "تواصل معي",
       downloadCV_DE: "تحميل السيرة الذاتية بالألمانية",
@@ -547,7 +547,7 @@ const translations = {
     about: {
       title: "نبذة عني",
       p1: "أنا مطور شغوف مقيم في <strong>هيلدسهايم، ألمانيا</strong>. ينصب تركيزي الأساسي على <strong>تطوير واجهات المستخدم</strong> باستخدام React و Next.js و TypeScript، بالإضافة إلى خبرة عملية في تطوير الخلفيات (Backend) باستخدام Node.js و Laravel.",
-      p2: "أقوم ببناء تطبيقات ويب حديثة وقابلة للتوسع بتصميم هندسي نظيف واهتمام كبير بتجربة المستخدم. ضمن تدريبي المهني كمتخصص في تطوير التطبيقات، مع التركيز على تطوير الويب، قواعد البيانات، البرمجة الكائنية، والتطبيقات المدعومة بالذكاء الاصطناعي، أبحث حالياً عن وظيفة بدوام كامل للمساهمة في فريق تطوير المنتجات.",
+      p2: "أقوم ببناء تطبيقات ويب حديثة وقابلة للتوسع بتصميم هندسي نظيف واهتمام كبير بتجربة المستخدم. كمتخصص معتمد في تطوير التطبيقات (Fachinformatiker IHK)، ينصب تركيزي على هندسة الويب المتقدمة، قواعد البيانات، البرمجة الكائنية، والحلول المدعومة بالذكاء الاصطناعي.",
       stats: {
         projects: "مشاريع مميزة",
         languages: "لغات",
@@ -625,10 +625,10 @@ const translations = {
         desc: "<li>بناء مواقع متجاوبة مع واجهة مستخدم متميزة وهيكلة واضحة.</li><li>تحسين تجربة المستخدم لجذب العملاء بشكل أفضل.</li><li>تسليم التحديثات والتحسينات بناءً على ملاحظات حقيقية.</li>",
       },
       r2: {
-        title: "إعادة تأهيل مهني: متخصص في تطوير التطبيقات",
-        company: "WBS Training AG",
+        title: "متخصص في تطوير التطبيقات (Fachinformatiker IHK)",
+        company: "WBS Training AG — اعتماد IHK الألماني",
         duration: "01/2023 - 11/2025",
-        desc: "<li>اجتزت الجزء العملي من امتحان IHK بنجاح، بما في ذلك مشروع التخرج والمناقشة الفنية في مجال إدارة التذاكر المدعومة بالذكاء الاصطناعي.</li><li>تعميق أساسيات هندسة البرمجيات (OOP، قواعد البيانات، الكود النظيف).</li><li>بناء مشاريع ويب متعددة بتطبيق مفاهيم حديثة في الواجهات الأمامية والخلفية.</li>",
+        desc: "<li>إتمام برنامج الاعتماد الألماني (IHK) بنجاح، بما في ذلك المشروع العملي والمناقشة التقنية لأنظمة التذاكر الذكية بالذكاء الاصطناعي.</li><li>التعمق في مبادئ هندسة البرمجيات: البرمجة الكائنية (OOP)، قواعد البيانات، الهيكلية النظيفة (Clean Architecture)، والـ REST APIs.</li><li>تطوير مشاريع ويب متكاملة (Full-Stack) بتطبيق أحدث المعايير في الواجهات الأمامية والخلفية.</li>",
       },
       r3: {
         title: "مطور تطبيقات",
@@ -640,17 +640,17 @@ const translations = {
         title: "بناء منتجات مستقلة",
         company: "مشاريع ويب",
         duration: "حالي",
-        desc: "<li>إنشاء مكونات قابلة لإعادة الاستخدام وهياكل صفحات قابلة للتوسع.</li><li>تجربة إعدادات متعددة اللغات، الوضع المظلم، والمحتوى المنظم.</li><li>تحسين أساسيات الأداء وتنظيم الكود بشكل مستمر.</li>",
+        desc: "<li>إنشاء مكونات برمجية قابلة لإعادة الاستخدام وهياكل صفحات قابلة للتوسع.</li><li>تطوير معمارية برمجية متعددة اللغات، الوضع المظلم، وتنظيم البيانات المتقدم.</li><li>تحسين مستمر لسرعة الأداء، معايير الوصول (Accessibility)، وجودة الكود.</li>",
       },
     },
     objective: {
-      title: "الهدف الوظيفي",
-      text: "أسعى للحصول على وظيفة بدوام كامل كمطور <strong>Full-Stack بتركيز على الواجهة الأمامية</strong>، للمساهمة في فرق المنتجات، وتقديم ميزات عالية الجودة، وبناء تجارب ويب قابلة للتوسع مع هندسة نظيفة وعقلية تسليم قوية.",
+      title: "الرؤية الهندسية والمهنية",
+      text: "أركز كمطور <strong>Full-Stack باهتمام متقدم بالواجهات الأمامية</strong> على تقديم ميزات برمجية عالية الجودة، وبناء تجارب ويب قابلة للتوسع بهندسة نظيفة، أداء فائق، وعقلية تسليم احترافية تضيف قيمة حقيقية لفرق المنتجات.",
     },
     contact: {
       title: "تواصل معي",
-      subtitle: "متاح لفرص عمل جديدة ووظائف بدوام كامل.",
-      desc: "أبحث حالياً عن وظيفة بدوام كامل كمطور واجهات أو Full-Stack. لا تتردد في التواصل معي لمناقشة كيف يمكنني المساهمة في فريقك!",
+      subtitle: "منفتح على المشاريع الطموحة، التعاون التقني، والفرص النوعية.",
+      desc: "سواء كنت تتطلع لبناء منتج رقمي عالي الأداء، حل تحديات تقنية معقدة، أو إضافة مطور ذو كفاءة لفريقك الهندسي — يسعدني دائماً التواصل وبدء حوار مثمر.",
       form: {
         name: "الاسم",
         email: "البريد الإلكتروني",
