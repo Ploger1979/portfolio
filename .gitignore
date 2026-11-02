@@ -1,2 +1,19 @@
-.vscode/
+# Environment & Secrets (Local Only)
+.env
+.env.local
+.env.*
+*.secret
+*.pem
+*.key
+
+# Scratch & Local Working Notes
 scratch/
+notes/
+*.tmp
+*.log
+
+# Editor & System Files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
