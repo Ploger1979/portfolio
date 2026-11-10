@@ -153,6 +153,21 @@ const translations = {
         title: "Ready to upgrade your online presence?",
         btn: "Get a Free Quote",
       },
+      work: {
+        title: "Selected Work & Case Studies",
+        alnajah: "Al-Najah Company",
+        alnajah_type: "E-Commerce & Manufacturing Platform",
+        alsiraj: "Al Siraj Perfumes",
+        alsiraj_type: "Luxury Perfumery E-Commerce",
+        elqabaeli: "El-Qabaeli",
+        elqabaeli_type: "Automotive E-Commerce Store",
+        khushu: "Khushu App",
+        khushu_type: "Islamic Progressive Web App (PWA)",
+        zusammen: "Zusammen Umzüge",
+        zusammen_type: "Logistics & AI Booking Platform",
+        selina: "Kartenlegen (Selina Zazou)",
+        selina_type: "Consulting & Booking Platform",
+      },
     },
     nav: {
       about: "About",
@@ -340,6 +355,21 @@ const translations = {
       cta_section: {
         title: "Bereit für den nächsten Schritt?",
         btn: "Kostenloses Angebot",
+      },
+      work: {
+        title: "Ausgewählte Arbeiten & Projekte",
+        alnajah: "Firma Al-Najah",
+        alnajah_type: "E-Commerce & Manufaktur-Plattform",
+        alsiraj: "Al Siraj Parfüms",
+        alsiraj_type: "Luxus-Parfümerie Onlineshop",
+        elqabaeli: "El-Qabaeli",
+        elqabaeli_type: "Kfz-Zubehör E-Commerce",
+        khushu: "Khushu App",
+        khushu_type: "Islamische Progressive Web App (PWA)",
+        zusammen: "Zusammen Umzüge",
+        zusammen_type: "Umzugslogistik & KI-Buchung",
+        selina: "Kartenlegen (Selina Zazou)",
+        selina_type: "Beratungs- & Buchungsplattform",
       },
     },
     nav: {
@@ -529,6 +559,21 @@ const translations = {
         title: "جاهز لتطوير تواجدك الرقمي؟",
         btn: "احصل على عرض مجاني",
       },
+      work: {
+        title: "أبرز الأعمال والمشاريع",
+        alnajah: "شركة النجاح",
+        alnajah_type: "منصة تجارة وتصنيع متكاملة",
+        alsiraj: "السراج للعطور",
+        alsiraj_type: "متجر عطور فاخرة وعود",
+        elqabaeli: "القبائلي لكماليات السيارات",
+        elqabaeli_type: "متجر إلكتروني وتتبع فواتير QR",
+        khushu: "تطبيق خُشوع",
+        khushu_type: "تطبيق إسلامي ويب متقدم (PWA)",
+        zusammen: "شركة النقل (Zusammen Umzüge)",
+        zusammen_type: "منصة نقل ذكية وفواتير رسمية",
+        selina: "كارتن ليجن (Selina Zazou)",
+        selina_type: "منصة حجز استشارات ودفع إلكتروني",
+      },
     },
     nav: {
       about: "نبذة عني",
@@ -673,18 +718,50 @@ const translations = {
 
 function initLanguage() {
   const selector = document.getElementById("language-selector");
-  const savedLang = localStorage.getItem("lang") || "en";
 
-  // Set initial value
-  selector.value = savedLang;
-  setLanguage(savedLang);
+  // 1. Check URL query parameter: ?lang=ar or ?lang=de or ?lang=en
+  const urlParams = new URLSearchParams(window.location.search);
+  const langFromUrl = urlParams.get("lang");
+
+  // 2. Check localStorage
+  const savedLang = localStorage.getItem("lang");
+
+  // 3. Browser language auto-detection
+  let detectedLang = "en";
+  if (navigator.language) {
+    if (navigator.language.startsWith("ar")) {
+      detectedLang = "ar";
+    } else if (navigator.language.startsWith("de")) {
+      detectedLang = "de";
+    }
+  }
+
+  // Precedence: URL param > localStorage > Browser detected language > default 'en'
+  let activeLang = "en";
+  if (langFromUrl && ["en", "de", "ar"].includes(langFromUrl.toLowerCase())) {
+    activeLang = langFromUrl.toLowerCase();
+    localStorage.setItem("lang", activeLang);
+  } else if (savedLang && ["en", "de", "ar"].includes(savedLang)) {
+    activeLang = savedLang;
+  } else {
+    activeLang = detectedLang;
+    localStorage.setItem("lang", activeLang);
+  }
+
+  // Set initial value in dropdown
+  if (selector) {
+    selector.value = activeLang;
+  }
+  setLanguage(activeLang);
 
   // Listen for changes
-  selector.addEventListener("change", (e) => {
-    const lang = e.target.value;
-    setLanguage(lang);
-    localStorage.setItem("lang", lang);
-  });
+  if (selector) {
+    selector.addEventListener("change", (e) => {
+      const lang = e.target.value;
+      setLanguage(lang);
+      localStorage.setItem("lang", lang);
+    });
+  }
 }
 
 function setLanguage(lang) {

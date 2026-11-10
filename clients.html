@@ -42,8 +42,21 @@
     <link rel="stylesheet" href="css/style.css">
     <style>
         /* Client Page Specific Overrides */
+        .section {
+            padding: 3.5rem 0;
+        }
+
+        .section-title {
+            margin-bottom: 2.25rem;
+        }
         .hero {
-            min-height: 80vh;
+            height: auto;
+            min-height: auto;
+            padding-top: calc(var(--header-height, 80px) + 3.5rem);
+            padding-bottom: 3.5rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
         }
 
         .hero .title {
@@ -60,7 +73,7 @@
 
         .service-card {
             padding: 3rem;
-            text-align: left;
+            text-align: start;
         }
 
         .process-grid {
@@ -76,6 +89,7 @@
             background: var(--bg-surface);
             border-radius: var(--radius-lg);
             border: 1px solid var(--border);
+            text-align: start;
         }
 
         .process-step::before {
@@ -125,7 +139,7 @@
         /* Gallery */
         .gallery-grid {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            grid-template-columns: repeat(3, 1fr);
             gap: 2rem;
         }
 
@@ -133,9 +147,21 @@
             border-radius: var(--radius-lg);
             overflow: hidden;
             position: relative;
-            aspect-ratio: 16/9;
+            aspect-ratio: 16/10;
             cursor: pointer;
             border: 1px solid var(--border);
+            text-align: start;
+            display: block;
+            text-decoration: none;
+            background: var(--card-bg);
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+            transition: transform 0.3s ease, border-color 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .gallery-item:hover {
+            transform: translateY(-6px);
+            border-color: var(--primary);
+            box-shadow: 0 12px 30px rgba(0, 212, 255, 0.2);
         }
 
         .gallery-item img {
@@ -154,19 +180,37 @@
             bottom: 0;
             left: 0;
             width: 100%;
-            padding: 2rem;
-            background: linear-gradient(transparent, rgba(0, 0, 0, 0.8));
-            opacity: 0;
-            transition: opacity 0.3s ease;
+            padding: 1.5rem 1.25rem 1.25rem;
+            background: linear-gradient(to top, rgba(5, 10, 20, 0.95) 0%, rgba(5, 10, 20, 0.75) 55%, transparent 100%);
+            display: flex;
+            flex-direction: column;
+            gap: 0.35rem;
+            transition: background 0.3s ease;
         }
 
         .gallery-item:hover .gallery-overlay {
-            opacity: 1;
+            background: linear-gradient(to top, rgba(5, 10, 20, 0.98) 0%, rgba(5, 10, 20, 0.85) 60%, transparent 100%);
         }
 
         .gallery-overlay h3 {
-            color: white;
+            color: #ffffff;
             margin: 0;
+            font-size: 1.15rem;
+            font-weight: 700;
+            letter-spacing: -0.01em;
+        }
+
+        .gallery-overlay .project-tag {
+            color: var(--primary);
+            font-size: 0.85rem;
+            font-weight: 500;
+            margin: 0;
+        }
+
+        @media (max-width: 992px) {
+            .gallery-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
         }
 
         @media (max-width: 768px) {
@@ -266,24 +310,59 @@
     <!-- Work Showcase "Visuals" -->
     <section id="work" class="section">
         <div class="container">
-            <h2 class="section-title fade-up">Selected Work</h2>
+            <h2 class="section-title fade-up" data-i18n="client.work.title">Selected Work & Case Studies</h2>
             <div class="gallery-grid">
-                <a href="https://kartenlegen-selinazazou.org/" target="_blank" class="gallery-item fade-up">
-                    <img src="images/selina-zazou.jpg" alt="Selina Zazou" loading="lazy" />
+                <!-- 1. Al-Najah Company -->
+                <a href="https://alnajah-company.com/" target="_blank" rel="noopener noreferrer" class="gallery-item fade-up">
+                    <img src="images/alnajah-company.png" alt="Al-Najah Company" loading="lazy" />
                     <div class="gallery-overlay">
-                        <h3>Service Website</h3>
+                        <h3 data-i18n="client.work.alnajah">Al-Najah Company</h3>
+                        <p class="project-tag" data-i18n="client.work.alnajah_type">E-Commerce & Manufacturing Platform</p>
                     </div>
                 </a>
-                <a href="https://el-qabaeli.com/" target="_blank" class="gallery-item fade-up">
+
+                <!-- 2. Al Siraj Perfumes -->
+                <a href="https://alsiraj-perfumes.com/" target="_blank" rel="noopener noreferrer" class="gallery-item fade-up">
+                    <img src="images/alsiraj-perfumes.jpg" alt="Al Siraj Perfumes" loading="lazy" />
+                    <div class="gallery-overlay">
+                        <h3 data-i18n="client.work.alsiraj">Al Siraj Perfumes</h3>
+                        <p class="project-tag" data-i18n="client.work.alsiraj_type">Luxury Perfumery E-Commerce</p>
+                    </div>
+                </a>
+
+                <!-- 3. El-Qabaeli -->
+                <a href="https://el-qabaeli.com/" target="_blank" rel="noopener noreferrer" class="gallery-item fade-up">
                     <img src="images/el-qabaeli.jpg" alt="El-Qabaeli" loading="lazy" />
                     <div class="gallery-overlay">
-                        <h3>E-Commerce Brand</h3>
+                        <h3 data-i18n="client.work.elqabaeli">El-Qabaeli</h3>
+                        <p class="project-tag" data-i18n="client.work.elqabaeli_type">Automotive E-Commerce Store</p>
                     </div>
                 </a>
-                <a href="https://zusammenumzuege.de/" target="_blank" class="gallery-item fade-up">
+
+                <!-- 4. Khushu App -->
+                <a href="https://khushu-app.netlify.app/" target="_blank" rel="noopener noreferrer" class="gallery-item fade-up">
+                    <img src="images/khushu-app.jpg" alt="Khushu App" loading="lazy" />
+                    <div class="gallery-overlay">
+                        <h3 data-i18n="client.work.khushu">Khushu App</h3>
+                        <p class="project-tag" data-i18n="client.work.khushu_type">Islamic Progressive Web App (PWA)</p>
+                    </div>
+                </a>
+
+                <!-- 5. Zusammen Umzüge -->
+                <a href="https://zusammenumzuege.de/" target="_blank" rel="noopener noreferrer" class="gallery-item fade-up">
                     <img src="images/zusammen-umzuege.jpg" alt="Zusammen Umzüge" loading="lazy" />
                     <div class="gallery-overlay">
-                        <h3>Relocation Service</h3>
+                        <h3 data-i18n="client.work.zusammen">Zusammen Umzüge</h3>
+                        <p class="project-tag" data-i18n="client.work.zusammen_type">Logistics & AI Booking Platform</p>
+                    </div>
+                </a>
+
+                <!-- 6. Kartenlegen - Selina Zazou -->
+                <a href="https://kartenlegen-selinazazou.org/" target="_blank" rel="noopener noreferrer" class="gallery-item fade-up">
+                    <img src="images/selina-zazou.jpg" alt="Selina Zazou" loading="lazy" />
+                    <div class="gallery-overlay">
+                        <h3 data-i18n="client.work.selina">Kartenlegen (Selina Zazou)</h3>
+                        <p class="project-tag" data-i18n="client.work.selina_type">Consulting & Booking Platform</p>
                     </div>
                 </a>
             </div>
